@@ -1,16 +1,12 @@
-img {
-    display: block;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-p {
-    margin: 0;
+img {
+    display: block;
+    width: 200px;
 }
 
 /* body {
@@ -23,7 +19,6 @@ a {
 
 ul {
     list-style: none;
-    padding-left: 0;
 }
 
 

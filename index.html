@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Store Happy paw</title>
     <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <!-- Maksim Klimukh -->
@@ -20,357 +20,53 @@
     <!--Zhuk Nikita -->
 
     <!-- 1 - START Юхим Рибенчук -->
-    <header class="header">
-      <div class="container">
-        <div class="header__top-line top-line">
-          <div class="top-line__working-hours">
-            Working Hours: 08 AM - 08 PM
-          </div>
-          <div class="top-line__contacts">
-            <p class="top-line__contacts-email">
-              Email:
-              <a href="#">happypaw@email.com</a>
-            </p>
-            <p class="top-line__contacts-phone">
-              phone:
-              <a href="#">+1 (234) 567 89 00</a>
-            </p>
-          </div>
-        </div>
-        <nav class="header__navbar navbar">
-          <a href="#" class="header__logo">
-            <img
-              width="182"
-              src="icons/happy-paw_logo.svg"
-              alt="Happy paw logo"
-            />
-          </a>
-          <ul class="navbar__wrapper">
-            <li class="navbar__item"><a href="#">About Us</a></li>
-            <li class="navbar__item"><a href="#">Categories</a></li>
-            <li class="navbar__item"><a href="#">Best Sellers</a></li>
-            <li class="navbar__item"><a href="#">New Arrivals</a></li>
-            <li class="navbar__item"><a href="#">Our Shop</a></li>
-          </ul>
-          <div class="socials">
-            <a href="#" class="socials__item"
-              ><img width="30" src="icons/facebook_logo.svg" alt="facebook"
-            /></a>
-            <a href="#" class="socials__item"
-              ><img width="30" src="icons/instagram_logo.svg" alt="instagram"
-            /></a>
-            <a href="#" class="socials__item"
-              ><img width="30" src="icons/youtube__logo.svg" alt="YouTube"
-            /></a>
-          </div>
-        </nav>
-
-        <div class="header__info info"></div>
-        <h1 class="info-title">Everything Your Pet Needs</h1>
-        <p class="info-text">
-          Pet supplies, food, and products from the best manufacturers.
-        </p>
-        <div class="info__wrapper">
-          <a href="#" class="info__button">About Us</a>
-          <a href="#" class="info__button-modyfied">Categories →</a>
-        </div>
-      </div>
-    </header>
+    <header data-include="./partials/header.partial.html"></header>
     <!-- 1 - FINISH Start Юхим Рибенчук -->
     <main>
-        <!-- Роботу вести у своєму блоці -->
+      <!-- 2 - START Ігор Зубрицький -->
+      <div data-include="./partials/products-for-pets.partial.html"></div>
+      <!-- 2 - FINISH Ігор Зубрицький -->
 
-        <!-- 2 - START Ігор Зубрицький -->
-        <div class="banners">
-            <div class="banners__food card" >
-                <p class="carrd__text">BUTCHERS, ROYAL CANIN, PEDIGREE</p>
-                <h2 class="card__title">Best-Quality Food for Pets</h2>
-                <a href="#" class="card__link button">Buy Now</a>
-            </div>
-            <div class="banners__discount card" >
-                <p class="card__title">Best-Quality Food for Pets</p>
-                <a href="#" class="card__link button">See Products</a>
-            </div>
-        </div>
+      <!-- 3 - START Микола Заграновський -->
+      <div data-include="./partials/mykola-zagranovskiy.partial.html"></div>
+      <!-- 3 - FINISH Микола Заграновський -->
 
-        <section class="products-for-pets">
-            <h2 class="products-for-pets__title">Any Products for Any Pets</h2>
-            <img src="img/bone_between_dots.svg" alt="Pink Bone">
-            <p class="products-for-pets__text">Best picks for your beloved companions only in Happy Paw.</p>
-            <div class="products-for-pets__carousel carousel">
-                <div class="carousel__slide">
-                    <img src="img/product-carousel-cat.png" alt="Cat">
-                    <h3 class="carousel__slide__title">For Cats</h3>
-                    <p class="carousel__slide__text">Dry Food • Wet Food • Treats • Catnip &amp; Grass • Litter Boxes  • Bowls &amp; Feeders • Toys • Beds  •</p>
-                </div>
-                <div class="carousel__slide">
-                    <img src="img/product-carousel-dog.png" alt="Dog">
-                    <h3 class="carousel__slide__title">For Dogs</h3>
-                    <p class="carousel__slide__text">Dry &amp; Canned Food • Jerky • Chewy Treats • Bowls • Toys • Collars and Leashes • Clothes •</p>
-                </div>
-                <div class="carousel__slide">
-                    <img src="img/product-carousel-parrot.png" alt="Parrot">
-                    <h3 class="carousel__slide__title">For Parrots</h3>
-                    <p class="carousel__slide__text">Food • Treats • Cages &amp; Stands • Vitamins • Bowls &amp; Feeders • Litter &amp; Nesting • Odor Control •</p>
-                </div>
-                <div class="carousel__slide">
-                    <img src="img/product-carousel-rabbit.png" alt="Rabbit">
-                    <h3 class="carousel__slide__title">For Rabbits</h3>
-                    <p class="carousel__slide__text">Dry &amp; Food • Treats • Hay • Cages • Litter &amp; Bedding • Harnesses • Toys • Odor Removers •</p>
-                </div>
-                <div class="carousel__slide">
-                    <img src="img/product-carousel-fish.png" alt="Fish">
-                    <h3 class="carousel__slide__title">For Fish</h3>
-                    <p class="carousel__slide__text">Food • Feeders • Aquariums • Filters &amp; Pumps • Cleaning  • Water Care • Decor •</p>
-                </div>
-                <div class="carousel__slide">
-                    <img src="img/product-carousel-hamster.png" alt="Hamster">
-                    <h3 class="carousel__slide__title">For Hamsters</h3>
-                    <p class="carousel__slide__text">Food • Soft &amp; Chewy Treats • Litter • Furniture • Collars and Leashes • Bowls • Toys • Beds •</p>
-                </div>
-            </div>
-        </section>
+      <!-- 4 - START Руслан Жигунов -->
+      <div data-include="./partials/ruslan-zhigunov.partial.html"></div>
+      <!-- 4 - FINISH Руслан Жигунов -->
 
-        <!-- 2 - FINISH Ігор Зубрицький -->
+      <!-- 5 - START Дмитро Зубик -->
+      <div data-include="./partials/ads.partial.html"></div>
+      <!-- 5 - FINISH Дмитро Зубик -->
 
+      <!-- 6 - START Дмитерко Юрій -->
+      <div data-include="./partials/dmytro-zubyk.partial.html"></div>
+      <!-- 6 - FINISH Дмитерко Юрій -->
 
-        <!-- 3 - START Микола Заграновський -->
+      <!-- 7 - START Максим Клімух -->
+      <div data-include="./partials/countdown.partial.html"></div>
+      <!-- 7 - FINISH Максим Клімух -->
 
-        <!-- 3 - FINISH Микола Заграновський -->
+      <!-- 8 - START Остап Джочко -->
+      <div data-include="./partials/recommendations.partial.html"></div>
+      <!-- 8 - FINISH Остап Джочко -->
 
+      <!-- 9 - START Олена Кобзар -->
+      <div data-include="./partials/olena-kobzar.partial.html"></div>
+      <!-- 9 - FINISH Олена Кобзар -->
 
-        <!-- 4 - START Руслан Жигунов -->
+      <!-- 10 -START  Нікіта Жук -->
+      <div data-include="./partials/food-examples.partial.html"></div>
+      <!-- 10 -FINISH  Нікіта Жук -->
 
-        <!-- 4 - FINISH Руслан Жигунов -->
-
-
-        <!-- 5 - START Дмитро Зубик -->
-        <div class ="ads">
-          <div class="ads__fish card">
-          <h3 class="card__title">Save 10% on aquarium</h3>
-          <a href="#" class="card__fishlink button">Discover Now</a>
-          </div>
-          <div class="ads__goods card">
-          <h3 class="card__goods-title">TOYS, TREATS & LEASHES</h3>
-          <p class="card__text">Best Picks for Your Pets</p>
-          <p class="card__text-price"> from $1.99</p>
-          <a href="#" class="card__goodslink button">Learn More</a>
-          </div>
-        </div>  
-        <div class="pet-food__carousel carousel">
-          <div class="carousel__slide">
-           <img src="img/allpaws.png" alt="AllPaws">
-           <img src="img/tigerino.png" alt="Tigerino">
-           <img src="img/gourmet.png" alt="Gourmet">
-           <img src="img/felix.png" alt="Felix">
-           <img src="img/purizon.png" alt="Purizon">
-           <img src="img/rocco.png" alt="Rocco">
-           <img src="img/dokas.png" alt="Dokas">
-          </div>
-
-        </div>
-            
-
-        <!-- 5 - FINISH Дмитро Зубик -->
-
-
-        <!-- 6 - START Дмитерко Юрій -->
-
-        <!-- 6 - FINISH Дмитерко Юрій -->
-
-
-        <!-- 7 - START Максим Клімух -->
-        <section class="cat-week">
-          <div class="container">
-            <div class="cat-week__info info">
-              <span class="info_promotion">PROMOTION</span>
-              <h2 class="info_finaly-here">Cat Week Is Finally Here! </h2>
-              <p class="info_specisl-price">Don't miss special prices on products for cats: beds, 
-                litter boxes, feeders, and much more. Enjoy up to <span class="sale">-30%</span> on selected items! </p>
-            </div>
-            <div class="cat-week__timer">
-              <div class="timer">
-                <div class="days-container">
-                  <div class="days"></div>
-                  <div class="days-label">days</div>
-                </div>
-                
-                <div class="hours-container">
-                  <div class="hours"></div>
-                  <div class="hours-label">hours</div>
-                </div>
-                
-                <div class="minutes-container">
-                  <div class="minutes"></div>
-                  <div class="minutes-label">minutes</div>
-                </div>
-                
-                <div class="seconds-container">
-                  <div class="seconds"></div>
-                  <div class="seconds-label">seconds</div>
-                </div>
-              </div>
- 
-              <a href="#" class="shop_button">Shop Now</a>
-            </div>
-          </div>
-        </section>
-        <!-- 7 - FINISH Максим Клімух -->
-
-
-        <!-- 8 - START Остап Джочко -->
-        <section class="recommendation">
-          <div class="recommendation__caption">
-            <h2>Top Recommendations</h2>
-            <img src="./img/bone_between_dots.svg" alt="a decorative bone">
-            <p>Shop the best products for your pets with affordable prices only in the Happy Paw online store.</p>
-          </div>
-          <div class="recommendation__filter">
-            <div class="recommendation__filter-categories">
-              <ul>
-                <li>For Dogs</li>
-                <li>For Cats</li>
-                <li>For Parrots</li>
-                <li>For Rabbits</li>
-                <li>For Hamsters</li>
-                <li>For Fish</li>
-              </ul>
-            </div>
-      
-            <div>
-              <img src="img/doggy_fun_set.png" alt="DOGGY Fun Set image">
-              <p><a href="#">DOGGY Fun Set</a></p>
-              <p>$6,00</p>
-              <a href="#">Add to Cart</a>
-            </div>
-      
-            <div>
-              <img src="img/duna_pillow_bed.png" alt="DDUNA Pillow Bed image">
-              <p><a href="#">DDUNA Pillow Bed</a></p>
-              <p>$10,00</p>
-              <a href="#">Add to Cart</a>
-            </div>
-      
-            <div>
-              <img src="img/aga_retractable_leash.png" alt="AGA Retractable Leash image">
-              <p><a href="#">AGA Retractable Leash</a></p>
-              <p>$33,00</p>
-              <a href="#">Add to Cart</a>
-            </div>
-      
-            <div>
-              <img src="img/doggy_2-bunch_toy.png" alt="DOGGY 2-Bunch Toy image">
-              <p><a href="#">DOGGY 2-Bunch Toy</a></p>
-              <p>$5,00</p>
-              <a href="#">Add to Cart</a>
-            </div>
-          </div>
-          <div>
-            <div>
-              <img src="img/cat_with_toy.png" alt="cat playing with a toy">
-            </div>
-      
-            <div>
-              <img src="img/dog_food.png" alt="dog food photo">
-              <p>Promo</p>
-              <p>Best Producers of Food for Dogs</p>
-              <a href="#">Discover Now →</a>
-              <ul>
-                <li>WOOF</li>
-                <li>Cat Daily</li>
-                <li>Fish Planet</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <!-- 8 - FINISH Остап Джочко -->
-
-
-        <!-- 9 - START Олена Кобзар -->
-
-        <!-- 9 - FINISH Олена Кобзар -->
-
-
-        <!-- 10 -START  Нікіта Жук -->
-             <!-- section 10 Dry Food & Treats -->
-        <section>
-            <div>
-            <h2>Dry Food & Treats</h2>
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="209"
-                height="90"
-            >
-                <image
-                xlink:href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjA5IiBoZWlnaHQ9IjkwIiB2aWV3Qm94PSIwIDAgMjA5IDkwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMTUwLjYxOCA2NS41ODAyQzE0NS4xNDYgNzEuMTU1NyAxMzYuMjY2IDcxLjE1NTkgMTMwLjc5NCA2NS41ODAyQzEyOS4zNDIgNjQuMTAwOSAxMjcuMjU3IDYxLjk3NyAxMjQuOTg2IDU5LjY2MjdMODMuNzM2NyA1OS42NjI2QzgxLjQ2ODQgNjEuOTczNyA3OS4zODQgNjQuMDk3NCA3Ny45Mjg4IDY1LjU4MDFDNzIuNDU2NCA3MS4xNTU3IDYzLjU3NjcgNzEuMTU1NyA1OC4xMDQzIDY1LjU4MDFDNTIuNjMyIDYwLjAwNDQgNTIuNjMxOCA1MC45NTczIDU4LjEwNDMgNDUuMzgxNUM1Mi42MzIgMzkuODA1OSA1Mi42MzE4IDMwLjc1ODggNTguMTA0MyAyNS4xODNDNjMuNTggMTkuNjA0IDcyLjQ1NjQgMTkuNjA3MyA3Ny45Mjg4IDI1LjE4M0M3OS4zODA3IDI2LjY2MjMgODEuNDY1MyAyOC43ODYyIDgzLjczNjcgMzEuMTAwNUwxMjQuOTg2IDMxLjEwMDZDMTI3LjI1OCAyOC43ODYxIDEyOS4zNDIgMjYuNjYyNSAxMzAuNzk0IDI1LjE4MzFDMTM2LjI2OSAxOS42MDQyIDE0NS4xNDYgMTkuNjA3MyAxNTAuNjE5IDI1LjE4MzFDMTU2LjA5MSAzMC43NTg2IDE1Ni4wOTQgMzkuODAyOSAxNTAuNjE4IDQ1LjM4MThDMTU2LjA5MSA1MC45NTczIDE1Ni4wOTQgNjAuMDAxMyAxNTAuNjE4IDY1LjU4MDJaIiBmaWxsPSIjRkJENkJGIi8+CjxjaXJjbGUgY3g9IjE5OCIgY3k9IjQ1IiByPSIxMSIgZmlsbD0iI0ZCRDZCRiIvPgo8Y2lyY2xlIGN4PSIxMSIgY3k9IjQ1IiByPSIxMSIgZmlsbD0iI0ZCRDZCRiIvPgo8L3N2Zz4K"
-                height="90"
-                width="209"
-                preserveAspectRatio="xMinYMin meet"
-                />
-            </svg>
-            <p>
-                Great well-balanced dry and canned food for your pets by the best
-                producers.
-            </p>
-            <div>
-                <p>For Dogs</p>
-                <ul>
-                <li>
-                    <!-- <img src="" alt="" /> -->
-                    <p></p>
-                </li>
-                <li>
-                    <!-- <img src="" alt="" /> -->
-                    <p></p>
-                </li>
-                <li>
-                    <!-- <img src="" alt="" /> -->
-                    <p></p>
-                </li>
-                </ul>
-                <p>For Cats</p>
-                <ul>
-                <li>
-                    <!-- <img src="" alt="" /> -->
-                    <p></p>
-                </li>
-                <li>
-                    <!-- <img src="" alt="" /> -->
-                    <p></p>
-                </li>
-                <li>
-                    <!-- <img src="" alt="" /> -->
-                    <p></p>
-                </li>
-                </ul>
-                <p>Other</p>
-                <ul>
-                <li>
-                    <!-- <img src="" alt="" /> -->
-                    <p></p>
-                </li>
-                <li>
-                    <!-- <img src="" alt="" /> -->
-                    <p></p>
-                </li>
-                <li>
-                    <!-- <img src="" alt="" /> -->
-                    <p></p>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </section>
-        <!-- section 10 Dry Food & Treats -->
-        <!-- 10 -FINISH  Нікіта Жук -->
-
-
-        <!-- 11 -START  Марія Кардаш -->
-
-        <!-- 11 -FINISH  Марія Кардаш -->
-        
+      <!-- 11 -START  Марія Кардаш -->
+      <div data-include="./partials/mariya-kardash.partial.html"></div>
+      <!-- 11 -FINISH  Марія Кардаш -->
     </main>
-    <footer></footer>
+    <footer>
+      <div data-include="./partials/oleksandr-karhopoltsev.partial.html"></div>
+    </footer>
+
+    <script src="./html-data-include.js"></script>
   </body>
 </html>
