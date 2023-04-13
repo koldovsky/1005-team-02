@@ -1,15 +1,15 @@
 @import 'global-styles.css';
 @import 'variables.css';
 
-@import 'header.css';
-@import 'products-for-pets.css';
-@import 'mykola-zagranovskiy.css';
-@import 'trending-products.css';
-@import 'ads.css';
-@import 'dmytro-zubyk.css';
-@import 'cat-week.css';
-@import 'recommendations.css';
-@import 'olena-kobzar.css';
-@import 'food-examples.css';
-@import 'mariya-kardash.css';
-@import 'oleksandr-karhopoltsev.css';
+@import 'components/header.css';
+@import 'components/products-for-pets.css';
+@import 'components/mykola-zagranovskiy.css';
+@import 'components/trending-products.css';
+@import 'components/ads.css';
+@import 'components/dmytro-zubyk.css';
+@import 'components/cat-week.css';
+@import 'components/recommendations.css';
+@import 'components/olena-kobzar.css';
+@import 'components/food-examples.css';
+@import 'components/mariya-kardash.css';
+@import 'components/oleksandr-karhopoltsev.css';

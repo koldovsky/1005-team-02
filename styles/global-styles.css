@@ -9,7 +9,8 @@
 }
 img {
     display: block;
-    width: 200px;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* body {
@@ -37,4 +38,38 @@ ul {
     clip-path: inset(100%);
     clip: rect(0, 0, 0, 0);
     overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        padding: 0 32px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        width: 1200px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .container {
+        padding: 0 15px;
+    }
 }
