@@ -1,5 +1,5 @@
 .header {
-    background: url('../../img/header_bg.png') center (center/cover) no-repeat;
+    background: url('../../img/header_bg.png') center center/cover no-repeat;
 }
 
 .header .header__top-line {
@@ -31,8 +31,13 @@
 }
 
 .socials .socials__item {
+    margin: 0 7.5px;
     width: 30px;
     height: 30px;
+}
+
+.socials .socials__item:last-child {
+    margin-right: 0;
 }
 
 .header .header__hamburger span {
@@ -49,6 +54,15 @@
 @media (min-width: 991px) {
 
     .header .header__top-line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 42px;
+        color: #ED6435;
+        background: #F2E8E4;
+    }
+
+    .top-line .top-line__contacts {
         display: flex;
     }
 
