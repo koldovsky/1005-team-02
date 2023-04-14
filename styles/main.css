@@ -1,6 +1,7 @@
 @import 'global-styles.css';
 @import 'variables.css';
 
+@import 'components/controls.css';
 @import 'components/header.css';
 @import 'components/products-for-pets.css';
 @import 'components/mykola-zagranovskiy.css';
