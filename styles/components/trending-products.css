@@ -1,11 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-.trending{
-    font-style: PT Sans;
-    font-size: 44px;
+
+h1 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 50px;
+
 }
-h1{
-font-style: Baloo 2;
-font-size: 19px;
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(149, 139, 126);
+}
+
+h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(149, 139, 126);
+}
+
+h4 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(237, 100, 53);
+}
+
+.wrapper {
+      
+    background-color: rgb(178, 231, 233);
+    border-radius: 25px;
+    display: inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+	font-size:17px;
+    padding: 12px 38px;
+    
+}
+.add-btn{
+    text-decoration: none;
+}
+.add-btn__text{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16.5px;
+    font-weight: 700;
+    color: rgb(69, 193, 199);
+    
+    
 }
