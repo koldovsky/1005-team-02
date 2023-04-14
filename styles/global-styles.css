@@ -9,16 +9,19 @@
 
 :root {
     scroll-behavior: smooth;
-    font-family: 'PT Sans' ,sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
+
 img {
     display: block;
     width: 100%;
     object-fit: cover;
 }
 
-/* body {
-} */
+body {
+    font-family: "PT Sans", sans-serif;
+    /* color: ; */
+}
 
 a {
     text-decoration: none;
