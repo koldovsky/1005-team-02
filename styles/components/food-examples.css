@@ -1,6 +1,4 @@
-img {
-    width: 100px;
-}
+
 
 @media (min-width: 320px) and (max-width: 767px) {
     .examples-section {
