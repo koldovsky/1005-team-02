@@ -10,17 +10,19 @@
 :root {
     scroll-behavior: smooth;
     font-family: 'PT Sans', sans-serif;
+    --main-text-color: #958B7E;
+    --secondary-text-color: #3C3731;
+    /* h all*/
+    --accent-text-color: #ED6435;
+    color: var(--main-text-color);
+    --main-bgc-color: #fff;
+    --secondary-bgc-color: #faf4f2;
 }
 
 img {
     display: block;
     width: 100%;
     object-fit: cover;
-}
-
-body {
-    font-family: "PT Sans", sans-serif;
-    /* color: ; */
 }
 
 a {
@@ -55,12 +57,20 @@ ul {
 
 @media (min-width: 768px) {
 
+    .section {
+        padding: 10px 0;
+    }
+
     .container {
         padding: 0 32px;
     }
 }
 
 @media (min-width: 992px) {
+
+    .section {
+        padding: 12px 0;
+    }
 
     .container {
         padding: 0 40px;
@@ -69,12 +79,20 @@ ul {
 
 @media (min-width: 1200px) {
 
+    .section {
+        padding: 45px 0;
+    }
+
     .container {
         width: 1200px;
     }
 }
 
 @media (min-width: 1280px) {
+
+    .section {
+        padding: 50px 0;
+    }
 
     .container {
         padding: 0 15px;
