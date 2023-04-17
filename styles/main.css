@@ -1,12 +1,13 @@
 @import 'global-styles.css';
 @import 'variables.css';
 
+@import 'components/controls.css';
 @import 'components/header.css';
 @import 'components/products-for-pets.css';
 @import 'components/mykola-zagranovskiy.css';
 @import 'components/trending-products.css';
 @import 'components/ads.css';
-@import 'components/dmytro-zubyk.css';
+@import 'components/fish-carousel.css';
 @import 'components/cat-week.css';
 @import 'components/recommendations.css';
 @import 'components/olena-kobzar.css';

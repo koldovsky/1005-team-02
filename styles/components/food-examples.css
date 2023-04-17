@@ -1,0 +1,73 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .examples-section {
+        padding: 90px 0;
+    }
+
+    .examples-container {
+        margin: 0 auto;
+        padding: 0 15px;
+        max-width: 272px;
+    }
+
+    .examples-title {
+        text-align: center;
+        background-color: var(--secondary-bgc-color);
+    }
+
+    .examples-section__bone-pic {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .examples-undertitle {
+        text-align: center;
+    }
+
+    .food-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+
+    .food-container__item {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-gap: 15px; */
+    }
+
+    .food-container__item_title {
+        text-align: left;
+    }
+
+    .food-container__item-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .food-container__item-list-unit {
+        display: flex;
+        gap: 10px;
+    }
+
+    .food-container__item-list-unit img {
+        width: 70px;
+    }
+}
+
+
+
+.examples-container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 272px;
+}
+
+
+
+
+.food-container {
+    /* display: grid; 
+        grid-template-columns: repeat(3, 1fr);                                desktop
+        grid-gap: 20px; */
+}
