@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
-
 h1 {
     font-family: 'Baloo 2', cursive;
     font-size: 50px;
-
+    line-height: 50px;
+    text-align: center;
 }
 
 h2 {
@@ -13,6 +10,8 @@ h2 {
     font-size: 19px;
     font-weight: 400;
     color: rgb(149, 139, 126);
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 h3 {
@@ -20,6 +19,7 @@ h3 {
     font-size: 18px;
     font-weight: 400;
     color: rgb(149, 139, 126);
+    margin: 24px 0px 0px;
 }
 
 h4 {
@@ -27,28 +27,88 @@ h4 {
     font-size: 18px;
     font-weight: 700;
     color: rgb(237, 100, 53);
+    margin: 0px;
+}
+
+.add-btn {
+    text-decoration: none;
 }
 
 .wrapper {
-      
     background-color: rgb(178, 231, 233);
     border-radius: 25px;
     display: inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial;
-	font-size:17px;
-    padding: 12px 38px;
-    
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 14px 30px;
+    border: solid rgb(178, 231, 233) 1px;
+    margin: 24px 0px 0px;
 }
-.add-btn{
-    text-decoration: none;
+
+.wrapper:hover .add-btn__text {
+    color: rgb(237, 100, 53);
 }
-.add-btn__text{
+
+.wrapper:active {
+    background-color: rgb(69, 193, 199);
+}
+
+.wrapper:hover {
+    border: solid rgb(255, 230, 212) 1px;
+    background-color: rgb(255, 230, 212);
+    transition: border 0s ease, bacground-color 0s ease;
+}
+
+.wrapper:not(:hover) {
+    animation: blink 0.5s;
+}
+
+@keyframes blink {
+    from {
+        border: solid rgb(69, 193, 199) 1px;
+    }
+
+    to {
+        border: solid rgb(178, 231, 233) 1px;
+    }
+}
+
+.add-btn__text {
     font-family: 'PT Sans', sans-serif;
     font-size: 16.5px;
     font-weight: 700;
     color: rgb(69, 193, 199);
+    transition: color 0.5s ease;
+    user-select: none;
+}
+
+.trending__carousel-bloc {
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.trending__carousel {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 293px 293px 293px 293px;
+}
+
+@media (max-width: 768px) {
+    .trending__carousel {
+        grid-template-columns: 100%  ;
+    }
     
-    
+}
+@media (min-width: 768px) {
+    .trending__carousel {
+        grid-template-columns: 352px 352px  ;
+    }
+}
+@media (min-width: 991px) {
+    .trending__carousel {
+    grid-template-columns: 323px 323px 323px 323px  ;
+    }
 }

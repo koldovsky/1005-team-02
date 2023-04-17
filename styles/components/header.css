@@ -29,7 +29,7 @@
 }
 
 .header .navbar__item:hover {
-    color: #ED6435;
+    color: var(--accent-text-color);
 }
 
 
@@ -53,7 +53,7 @@
     display: block;
     width: 24px;
     height: 2px;
-    background-color: #3C3731;
+    background-color: var(--secondary-text-color);
 }
 
 .header .header__hamburger span:nth-child(2) {
@@ -70,7 +70,7 @@
 .header .info .info-text {
     margin-top: 35px;
     font-size: 19px;
-    color: #958B7E;
+    color: var(--main-text-color);
 }
 
 .header .info .info__wrapper {
@@ -161,7 +161,7 @@
     .header .navbar .navbar__wrapper .navbar__item:hover a {
         color: #ED6435;
     }
-    
+
     .header .socials {
         display: flex;
     }
