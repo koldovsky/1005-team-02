@@ -92,4 +92,23 @@ h4 {
 .trending__carousel {
     display: flex;
     justify-content: center;
+    display: grid;
+    grid-template-columns: 293px 293px 293px 293px;
+}
+
+@media (max-width: 768px) {
+    .trending__carousel {
+        grid-template-columns: 100%  ;
+    }
+    
+}
+@media (min-width: 768px) {
+    .trending__carousel {
+        grid-template-columns: 352px 352px  ;
+    }
+}
+@media (min-width: 991px) {
+    .trending__carousel {
+    grid-template-columns: 323px 323px 323px 323px  ;
+    }
 }
