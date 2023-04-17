@@ -15,9 +15,10 @@
     --secondary-text-color: #3C3731;
     /* h all*/
     --accent-text-color: #ED6435;
-    color: var(--main-text-color);
     --main-bgc-color: #fff;
     --secondary-bgc-color: #faf4f2;
+    --top-line-bg-color: #F2E8E4;
+    color: var(--main-text-color);
 }
 
 img {
