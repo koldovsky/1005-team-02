@@ -16,6 +16,7 @@
     --main-bgc-color: #fff;
     --secondary-bgc-color: #faf4f2;
     --top-line-bg-color: #F2E8E4;
+    --underline-color: #45c1c7;
     color: var(--main-text-color);
 }
 
@@ -25,8 +26,13 @@ img {
     object-fit: cover;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Baloo 2', cursive;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Baloo 2', cursive;
 }
 
 a {
