@@ -64,6 +64,10 @@ ul {
     padding: 0 24px;
 }
 
+.section {
+    padding: 90px 0;
+}
+
 @media (min-width: 768px) {
 
     .section {
