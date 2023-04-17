@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lobster&family=PT+Sans&display=swap');
+.testimonials-clients__title {
+    font-style: Baloo 2;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: none;
+    text-align: center;
+}
+.testimonials-clients__subtitle {
+    font-style: PT Sans;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+    text-align: center;
+    color: #958b7e;
+} 
+.carousel__slide img {
+   width: 70%;
+   margin: auto;
+}
