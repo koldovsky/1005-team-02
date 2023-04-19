@@ -68,6 +68,10 @@ ul {
     padding: 90px 0;
 }
 
+.bone-image {
+    max-width: 75px;
+}
+
 @media (min-width: 768px) {
 
     .section {
