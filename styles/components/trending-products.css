@@ -1,28 +1,30 @@
-h1 {
+.trending__caption h1 {
     font-family: 'Baloo 2', cursive;
     font-size: 50px;
     line-height: 50px;
     text-align: center;
+    color: var(--secondary-text-color);
 }
 
-h2 {
+.trending__caption h2 {
     font-family: 'PT Sans', sans-serif;
     font-size: 19px;
     font-weight: 400;
-    color: rgb(149, 139, 126);
+    color: var(--main-text-color);
     text-align: center;
     margin-bottom: 60px;
+
 }
 
-h3 {
+.trending__carousel-bloc h3 {
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: rgb(149, 139, 126);
+    color: var(--main-text-color);
     margin: 24px 0px 0px;
 }
 
-h4 {
+.trending__carousel-bloc h4 {
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -98,17 +100,19 @@ h4 {
 
 @media (max-width: 768px) {
     .trending__carousel {
-        grid-template-columns: 100%  ;
+        grid-template-columns: 100%;
     }
-    
+
 }
+
 @media (min-width: 768px) {
     .trending__carousel {
-        grid-template-columns: 352px 352px  ;
+        grid-template-columns: 352px 352px;
     }
 }
+
 @media (min-width: 991px) {
     .trending__carousel {
-    grid-template-columns: 323px 323px 323px 323px  ;
+        grid-template-columns: 323px 323px 323px 323px;
     }
 }
