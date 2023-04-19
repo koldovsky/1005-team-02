@@ -58,7 +58,6 @@
 .food-container__item-list-unit {
     display: flex;
     gap: 10px;
-    min-height: 225px;
 }
 
 .food-container__item-list-unit img {
@@ -100,6 +99,10 @@
         line-height: 1.2;
     }
 
+    .food-container__item-list-unit {
+        min-height: 137px;
+    }
+
     .food-container__item-list-unit img {
         max-width: 120px;
         max-height: 120px;
@@ -129,6 +132,10 @@
     .food-container__item_title {
         font-size: 32px;
         line-height: 1.1875;
+    }
+
+    .food-container__item-list-unit {
+        min-height: 225px;
     }
 
     .food-container__item-list-unit img {
