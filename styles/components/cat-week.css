@@ -1,7 +1,6 @@
 .cat-week {
     padding: 90px 0px 100px;
-    background: url(../../img/cat-week_background.png)
-    
+    background: url(../../img/cat-week_background.jpg)
 }
 
 .info_promotion {
@@ -17,7 +16,7 @@
     padding: 0;
     font-size: 70px;
     font-family: "Baloo 2", cursive;
-    
+
     line-height: 70px;
 }
 
