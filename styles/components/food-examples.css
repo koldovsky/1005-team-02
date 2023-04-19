@@ -75,11 +75,17 @@
     font-size: 22px;
     line-height: 1.3181;
     color: var(--secondary-text-color);
+    display: flex;
+    justify-content: space-between;
 }
 
 .food-container__item-list-unit p {
     font-size: 17px;
     line-height: 1.5882;
+}
+
+.food-container__price {
+    color: var(--accent-text-color);
 }
 
 @media (min-width: 768px) {
