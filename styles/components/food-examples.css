@@ -36,7 +36,6 @@
 .food-container__item {
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-gap: 15px; */
 }
 
 .food-container__item_title {
@@ -144,9 +143,3 @@
         grid-gap: 20px;
     }
 }
-
-
-
-@media (min-width: 1200px) {}
-
-@media (min-width: 1280px) {}
