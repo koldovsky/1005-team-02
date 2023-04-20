@@ -1,21 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lobster&family=PT+Sans&display=swap');
-.testimonials-clients__title {
-    font-style: Baloo 2;
+.testimonials-clients__title{
+    font-family: 'Baloo 2'cursive;
+    color: var(--secondary-text-color);
     font-size: 30px;
     font-weight: bold;
-    text-transform: none;
-    text-align: center;
 }
 .testimonials-clients__subtitle {
-    font-style: PT Sans;
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: none;
     text-align: center;
-    color: #958b7e;
-} 
-.carousel__slide img {
-   width: 70%;
-   margin: auto;
+    color: var(--main-text-color);
+    font-size: 18px;
+}
+.testimonials_client__subtitle {
+    color: var(--accent-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+.testimonials-client__name {
+    color: var(--secondary-text-color);
+    font-family: 'Baloo 2'cursive;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.testimonials__date {
+    color: var(--secondary-text-color);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.testimonials__client_comment {
+    color: var(--main-text-color);
+    font-style: italic;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+}
+.carousel__slide-clients {
+    border: 2px solid #ffe6d4;
+    margin-top: 20px;
+}
+.carousel__slide-clients img {
+    width: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
 }
