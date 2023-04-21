@@ -1,8 +1,17 @@
-.testimonials-clients__title{
-    font-family: 'Baloo 2'cursive;
+.testimonials-clients__title {
     color: var(--secondary-text-color);
     font-size: 30px;
     font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .testimonials-clients__title {
+        line-height: 1.2045;
+        font-size: 44px;
+    }
+.examples-section__bone-image {
+    margin: 15px auto;
 }
 .testimonials-clients__subtitle {
     text-align: center;
@@ -41,6 +50,7 @@
 .carousel__slide-clients {
     border: 2px solid #ffe6d4;
     margin-top: 20px;
+    padding: 33px 20px;
 }
 .carousel__slide-clients img {
     width: 120px;
@@ -48,3 +58,19 @@
     display: block;
     margin: auto;
 }
+@media (min-width: 770px) {
+   .testimonials-clients__carousel  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+   } 
+}
+@media (min-width: 900px) {
+    .testimonials-clients__carousel  {
+     grid-template-columns: 1fr 1fr 1fr;
+    }   
+ }
+ .testimonials-clients__carousel {
+    padding-bottom: 90px;
+    margin-top: 45px;
+ }
