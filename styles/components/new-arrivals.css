@@ -1,0 +1,13 @@
+.new-arrivals__title {
+    text-align: center;
+    font-weight: 700;
+    color: var(--secondary-text-color);
+    line-height: 1.2;
+    font-size: 30px;
+}
+
+.new-arrivals__subtitle {
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.5263;
+}
