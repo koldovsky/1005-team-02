@@ -1,0 +1,20 @@
+.arrivals_header {
+    padding-bottom: 150px;
+}
+
+.arrivals_header .arrivals_header__top-line {
+    display: none;
+}
+
+.arrivals_header .arrivals_header__logo {
+    width: 182px;
+}
+
+
+.arrivals_header .arrivals_header__navbar {
+    display: flex;
+    padding: 30px 0;
+    margin-bottom: 110px;
+    justify-content: space-between;
+    align-items: center;
+}
