@@ -56,10 +56,6 @@
 }
 
 @media (min-width: 768px) {
-/*    .arrivals_header__navbar {
-        margin-bottom: 155px;
-    } */
-
     .arrivals-header__logo {
         width: 182px;
     }
@@ -86,27 +82,23 @@
         display: flex;
     }
 
-    .arrivals-top-line__contacts-item {
+    .arrivals-top-line .arrivals-top-line__contacts-item {
         margin: 0 10px;
     }
 
-    .arrivals-top-line__contacts-item a:hover {
+    .arrivals-top-line .arrivals-top-line__contacts-item a:hover {
         text-decoration: underline;
     }
 
-    .arrivals-top-line__contacts-item:last-child {
+    .arrivals-top-line .arrivals-top-line__contacts-item:last-child {
         margin-right: 0;
     }
 
-    ..arrivals-top-line__contacts-item a {
+    .arrivals-top-line .arrivals-top-line__contacts-item a {
         font-size: 15px;
         color: var(--accent-text-color);
         font-weight: 700;
     }
-
- /*    .arrivals_header__navbar {
-        margin-bottom: 200px;
-    } */
 
     .navbar-arr__wrapper {
         display: flex;
@@ -135,5 +127,3 @@
     }
 
 }
-
-
