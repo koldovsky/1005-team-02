@@ -1,7 +1,3 @@
-.arrivals_header {
-    padding-bottom: 150px;
-}
-
 .arrivals_header .arrivals_header__top-line {
     display: none;
 }
@@ -14,7 +10,31 @@
 .arrivals_header .arrivals_header__navbar {
     display: flex;
     padding: 30px 0;
-    margin-bottom: 110px;
     justify-content: space-between;
     align-items: center;
+}
+
+.arrivals_header .navbar-arr .navbar-arr__wrapper {
+    display: none;
+}
+
+.arrivals_header .navbar-arr__item {
+    margin: 12px 20px;
+    transition: all .2s;
+}
+
+.arrivals_header .navbar-arr__item:hover {
+    color: var(--accent-text-color);
+}
+
+.arrivals_header .socials-arr {
+    display: none;
+}
+
+.arrivals_header .socials-arr__item {
+    margin: 0 7.5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    transition: all .2s;
 }
