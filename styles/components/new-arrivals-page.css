@@ -6,7 +6,7 @@
     display: none;
 }
 
-.arrivals_header__logo {
+.arrivals-header__logo {
     width: 182px;
 }
 
@@ -15,6 +15,7 @@
     padding: 30px 0;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .navbar-arr__wrapper {
@@ -27,7 +28,7 @@
     transition: all .2s;
 }
 
-.arrivals_header .navbar-arr__item:hover {
+.navbar-arr__item:hover {
     color: var(--accent-text-color);
 }
 
@@ -55,9 +56,9 @@
 }
 
 @media (min-width: 768px) {
-    .arrivals_header .arrivals_header__navbar {
+/*    .arrivals_header__navbar {
         margin-bottom: 155px;
-    }
+    } */
 
     .arrivals-header__logo {
         width: 182px;
@@ -103,9 +104,9 @@
         font-weight: 700;
     }
 
-    .arrivals_header__navbar {
+ /*    .arrivals_header__navbar {
         margin-bottom: 200px;
-    }
+    } */
 
     .navbar-arr__wrapper {
         display: flex;
