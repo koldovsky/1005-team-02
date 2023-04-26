@@ -1,3 +1,7 @@
+.arrivals_header {
+    background-color: var(--secondary-bgc-color);
+}
+
 .arrivals_header .arrivals_header__top-line {
     display: none;
 }
@@ -16,6 +20,7 @@
 
 .arrivals_header .navbar-arr .navbar-arr__wrapper {
     display: none;
+    color: var(--main-text-color);
 }
 
 .arrivals_header .navbar-arr__item {
@@ -54,10 +59,14 @@
     .arrivals_header .arrivals_header__navbar {
         margin-bottom: 155px;
     }
+
+    .arrivals-header__logo {
+        width: 182;
+    }
 }
 
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
     .arrivals_header .arrivals_header__top-line {
         display: block;
         background: var(--top-line-bg-color)
