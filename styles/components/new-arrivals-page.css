@@ -39,6 +39,17 @@
     transition: all .2s;
 }
 
+.arrivals_header .arrivals-header__hamburger span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: var(--secondary-text-color);
+}
+
+.arrivals_header .arrivals-header__hamburger span:nth-child(2) {
+    margin: 5px 0;
+}
+
 @media (min-width: 768px) {
     .arrivals_header .arrivals_header__navbar {
         margin-bottom: 155px;
