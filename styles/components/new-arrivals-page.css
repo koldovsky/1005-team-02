@@ -55,7 +55,15 @@
     margin: 5px 0;
 }
 
+.shop-carousel {
+    display: flex;
+}
 
+.shop-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 
 @media (min-width: 768px) {
