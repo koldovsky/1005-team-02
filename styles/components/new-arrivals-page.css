@@ -69,6 +69,42 @@
     justify-content: space-evenly;
 }
 
+.shop-details__add {
+    display: flex;
+    flex-direction: row;
+}
+
+.shop-details__wrapper {
+    background-color: rgb(255, 230, 212);
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 14px 30px;
+    border: solid rgb(255, 230, 212) 1px;
+    margin: 24px 0px 0px;
+}
+
+.shop-details__wrapper:active {
+    background-color:rgb(178, 231, 233);
+}
+
+.shop-details__wrapper:hover {
+    border: solid rgb(178, 231, 233) 1px;
+    background-color: rgb(178, 231, 233);
+    transition: border 0s ease, bacground-color 0s ease;
+}
+
+.shop-details__wrapper:hover .shop-add-btn__text {
+    color: rgb(69, 193, 199);
+}
+
+.shop-details__wrapper:not(:hover) {
+    animation: blink 0.5s;
+}
+
 
 @media (min-width: 768px) {
     .arrivals-header__logo {
