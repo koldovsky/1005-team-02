@@ -5,8 +5,8 @@
         font-weight: bold;
         font-family: 'Baloo 2', cursive;
         color: #3C3731;
-        font-size: 12px;
-        line-height: 12px;
+        font-size: 20px;
+        line-height: 20px;
     
 }
 .ads .card__goods-offer{
@@ -16,4 +16,9 @@
     font-size: 48px;
     line-height: 48px;
 }
+.ads__goods_card{
 
+background-image: url:("img/goods.img");
+
+
+}
