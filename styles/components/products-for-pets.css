@@ -1,0 +1,45 @@
+.banners {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.card{
+      
+    margin: 10px 15px;
+}
+.card img{
+    display: inline-block;
+    height:auto;
+    justify-content: center;
+    
+}
+.banners h2{
+    color: #3C3731;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.banners p{
+    font-style: Baloo 2;
+    font-size: 18px;
+}
+.products-for-pets{
+    font-style: PT Sans;
+    font-size: 44px;
+}
+.products-for-pets h2{
+    font-style: Baloo 2;
+    color: #3C3731;
+    font-size: 44px;
+    font-weight: bold;
+}
+.products-for-pets p{
+    font-style: Baloo 2;
+    font-size: 12px;
+}
+
+.products-for-pets img{
+    width: 100px;
+    height: fit-content;
+}

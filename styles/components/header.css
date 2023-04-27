@@ -1,5 +1,5 @@
 .header {
-    background: url('../../img/header_bg.png') center center/cover no-repeat;
+    background: url('../../img/header_bg.jpg') center center/cover no-repeat;
     padding-bottom: 150px;
 }
 
@@ -61,8 +61,7 @@
 }
 
 .header .info .info-title {
-    font-family: 'Baloo 2', cursive;
-    color: #3C3731;
+    color: var(--secondary-text-color);
     font-size: 48px;
     line-height: 48px;
 }
@@ -109,8 +108,7 @@
 
     .header .header__top-line {
         display: block;
-        background: #F2E8E4;
-
+        background: var(--top-line-bg-color)
     }
 
     .header .top-line {
@@ -119,7 +117,7 @@
         align-items: center;
         height: 42px;
         font-size: 15px;
-        color: #ED6435;
+        color: var(--accent-text-color);
         font-weight: 700;
     }
 
@@ -141,7 +139,7 @@
 
     .top-line .top-line__contacts a {
         font-size: 15px;
-        color: #ED6435;
+        color: var(--accent-text-color);
         font-weight: 700;
     }
 
@@ -160,7 +158,7 @@
     }
 
     .header .navbar .navbar__wrapper .navbar__item:hover a {
-        color: #ED6435;
+        color: var(--accent-text-color);
     }
 
     .header .socials {
