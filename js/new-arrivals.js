@@ -31,8 +31,10 @@ function prevSlide() {
     showCurrentSlide();
 }
 
+
 nextSlide();
-setInterval(nextSlide, 3000);
+// setInterval(nextSlide, 3000);
+
 
 const btnNext = document.querySelector('.product-carousel-btn-prev');
 btnNext.addEventListener('click', nextSlide);
