@@ -1,3 +1,7 @@
+.testimonials-clients-carousel {
+    display: flex;
+    justify-content: center;
+}
 .testimonials-clients__title {
     color: var(--secondary-text-color);
     font-size: 30px;
