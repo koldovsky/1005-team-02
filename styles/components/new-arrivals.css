@@ -32,3 +32,12 @@
     color: rgb(237, 100, 53);
     margin: 0px;
 }
+
+.product-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.product-carousel__slide {
+    display: flex;
+}
