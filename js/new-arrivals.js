@@ -34,10 +34,10 @@ function prevSlide() {
 nextSlide();
 setInterval(nextSlide, 3000);
 
-const btnNext = document.querySelector('.products__carousel-btn-next');
+const btnNext = document.querySelector('.product-carousel-btn-prev');
 btnNext.addEventListener('click', nextSlide);
 
-const btnPrev = document.querySelector('.products__carousel-btn-prev');
+const btnPrev = document.querySelector('.product-carousel-btn-next');
 btnPrev.addEventListener('click', prevSlide);
 
 window.addEventListener('resize', showCurrentSlide);
