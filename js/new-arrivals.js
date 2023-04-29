@@ -1,5 +1,5 @@
 const slides = [
-    '<div><img src="img/new_arrival_sticks.jpg" alt="Sticks"></div>',
+    '<div class="new-arrivals__slide"><img src="img/new_arrival_sticks.jpg" alt="VITALIFE Crunch Sticks Treat"><h3><a href="new-arrivals-sticks.html" class="new-arrivals__name">VITALIFE Crunch Sticks Treat</a></h3><h4>$5.00</h4><div class="wrapper">   <a href="#" class="add-btn"><span class="add-btn__text">Add to Cart</span></a></div>',
     '<div><img src="img/new_arrival_toy.jpg" alt="Toy"></div>',
     '<div><img src="img/new_arrival_leash.jpg" alt="Leash"></div>',
     '<div><img src="img/new_arrival_bowl.jpg" alt="Bowl"></div>',
