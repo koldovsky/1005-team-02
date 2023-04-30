@@ -17,11 +17,28 @@
     line-height: 48px;
 }
 .ads__fish {
-    background-image: url('img/goodsbg.jpg');
+    background-image: url('path/to/image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /* additional styles */
   }
+  
+  .card__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .card__fishlink-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #c08e42; 
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
   
 ..pet-food__carousel {
     width: 100%;
