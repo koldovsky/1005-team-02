@@ -18,7 +18,7 @@
 }
 .ads__goods_card{
 
-background-image: url:("img../goodsbg.img");
+background-image: url:("img/goodsbg.img");
 
 
 }
@@ -34,8 +34,8 @@ background-image: url:("img../goodsbg.img");
   }
   
   .carousel_goods_slides img {
-    width: 200px;
-    height: 120px;
+    width: 230px;
+    height: 123px;
     margin: 0 5px;
   }
   
