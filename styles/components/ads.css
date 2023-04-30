@@ -22,9 +22,10 @@ background-image: url:("img../goodsbg.img");
 
 
 }
-.carousel_goods_slides img{
+.carousel_goods_slides{
     height: 253px;
     width: 123px;
     background-color: coral;
     display: inline-flex;
+    margin: 20px;
 }
