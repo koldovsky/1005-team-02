@@ -26,5 +26,5 @@ background-image: url:("img../goodsbg.img");
     height: 253px;
     width: 123px;
     background-color: coral;
-
+    display: inline-block;
 }
