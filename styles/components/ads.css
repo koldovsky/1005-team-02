@@ -16,12 +16,13 @@
     font-size: 48px;
     line-height: 48px;
 }
-.ads__goods_card{
-
-background-image: url:("img/goodsbg.img");
-
-
-}
+.ads__fish {
+    background-image: url('img/goodsbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* additional styles */
+  }
+  
 ..pet-food__carousel {
     width: 100%;
     overflow: hidden;
