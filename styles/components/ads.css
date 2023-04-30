@@ -30,12 +30,12 @@ background-image: url:("img../goodsbg.img");
   .carousel_goods_slides {
     display: flex;
     justify-content: space-between;
-    margin: 0 -10px;
+    margin: 0 -5px;
   }
   
   .carousel_goods_slides img {
-    width: 150px;
-    height: 150px;
-    margin: 0 10px;
+    width: 200px;
+    height: 120px;
+    margin: 0 5px;
   }
   
