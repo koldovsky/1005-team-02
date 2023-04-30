@@ -29,15 +29,6 @@
     margin-bottom: 16px;
   }
   
-  .card__fishlink-button {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #c08e42; 
-    color: white;
-    font-size: 16px;
-    border-radius: 4px;
-    text-decoration: none;
-  }
   
   
 ..pet-food__carousel {
