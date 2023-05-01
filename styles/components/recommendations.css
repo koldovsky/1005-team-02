@@ -1,0 +1,45 @@
+.recommendations__part-one {
+    padding: 100px 0 60px 0;
+   
+}
+
+.recommendation__caption {
+    text-align: center;
+    
+}
+
+.recommendation__caption-h2 {
+    color: var(--secondary-text-color);
+    font-size: 44px;
+}
+
+.bone-positioning {
+    margin: 0px auto;
+}
+
+@media (max-width: 768px) {
+
+.recommendation__caption-h2{
+    font-size: 30px;
+}
+    
+}
+
+.recommendation__caption-paragraph {
+    font-size: 19px;
+}
+
+.recommendation-list {
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.recommendation-list li {
+    padding: 15px 20px;
+    font-size: 17px;
+   
+}
+

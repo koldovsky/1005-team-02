@@ -1,0 +1,211 @@
+.arrivals_header {
+    background-color: var(--secondary-bgc-color);
+}
+
+.arrivals_header__top-line {
+    display: none;
+}
+
+.arrivals-header__logo {
+    width: 182px;
+}
+
+.arrivals_header__navbar {
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.navbar-arr__wrapper {
+    display: none;
+    color: var(--main-text-color);
+}
+
+.navbar-arr__item {
+    margin: 12px 20px;
+    transition: all .2s;
+}
+
+.navbar-arr__item:hover {
+    color: var(--accent-text-color);
+}
+
+.socials-arr {
+    display: none;
+}
+
+.socials-arr__item {
+    margin: 0 7.5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    transition: all .2s;
+}
+
+.arrivals-header__hamburger span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: var(--secondary-text-color);
+}
+
+.arrivals-header__hamburger span:nth-child(2) {
+    margin: 5px 0;
+}
+
+.shop-homepage__header {
+    color: #232323;
+    
+}
+.shop-card {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.shop-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.shop-details__status {
+    margin-bottom: 10px;
+    color: #61a854;
+    font-size: 23px;
+}
+
+.shop-details__name {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.shop-details__code {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.shop-details__price {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.shop-details__add {
+    display: flex;
+    flex-direction: row;
+}
+
+.shop-details__wrapper {
+    background-color: rgb(255, 230, 212);
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 7px 145px;
+    border: solid rgb(255, 230, 212) 1px;
+    margin: 0px 4px 0px;
+}
+
+.shop-details__wrapper:active {
+    background-color:rgb(178, 231, 233);
+}
+
+.shop-details__wrapper:hover {
+    border: solid rgb(178, 231, 233) 1px;
+    background-color: rgb(178, 231, 233);
+    transition: border 0s ease, bacground-color 0s ease;
+}
+
+.shop-add-btn__text {
+    color: rgb(237, 100, 53);
+}
+
+.shop-details__wrapper:hover .shop-add-btn__text {
+    color: rgb(69, 193, 199);
+}
+
+.shop-details__wrapper:not(:hover) {
+    animation: blink 0.5s;
+}
+
+
+@media (min-width: 768px) {
+    .arrivals-header__logo {
+        width: 182px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .arrivals_header__top-line {
+        display: block;
+        background: var(--top-line-bg-color)
+    }
+
+    .arrivals-top-line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 42px;
+        font-size: 15px;
+        color: var(--accent-text-color);
+        font-weight: 700;
+    }
+
+    .arrivals-top-line__contacts {
+        display: flex;
+    }
+
+    .arrivals-top-line .arrivals-top-line__contacts-item {
+        margin: 0 10px;
+    }
+
+    .arrivals-top-line .arrivals-top-line__contacts-item a:hover {
+        text-decoration: underline;
+    }
+
+    .arrivals-top-line .arrivals-top-line__contacts-item:last-child {
+        margin-right: 0;
+    }
+
+    .arrivals-top-line .arrivals-top-line__contacts-item a {
+        font-size: 15px;
+        color: var(--accent-text-color);
+        font-weight: 700;
+    }
+
+    .navbar-arr__wrapper {
+        display: flex;
+    }
+
+    .arrivals-header__logo {
+        width: 182px;
+    }
+
+    .navbar-arr__item a {
+        font-size: 15px;
+        color: #6B6B6B;
+        font-weight: 700;
+    }
+
+    .navbar-arr__item:hover a {
+        color: var(--accent-text-color);
+    }
+
+    .socials-arr {
+        display: flex;
+    }
+
+    .arrivals-header__hamburger {
+        display: none;
+    }
+
+}

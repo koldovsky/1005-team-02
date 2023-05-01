@@ -1,6 +1,9 @@
-.testimonials-clients-carousel {
+.testimonials-cliens__carousel {
     display: flex;
     justify-content: center;
+}
+.testimonials-cliens__carousel-slide {
+    display: flex;
 }
 .testimonials-clients__title {
     color: var(--secondary-text-color);

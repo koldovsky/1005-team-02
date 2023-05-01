@@ -1,0 +1,43 @@
+.new-arrivals__title {
+    text-align: center;
+    font-weight: 700;
+    color: var(--secondary-text-color);
+    line-height: 1.2;
+    font-size: 30px;
+}
+
+.new-arrivals__subtitle {
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.5263;
+}
+
+.new-arrivals__slide {
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.new-arrivals__slide h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--main-text-color);
+    margin: 24px 0px 0px;
+}
+
+.new-arrivals__slide h4 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(237, 100, 53);
+    margin: 0px;
+}
+
+.product-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.products__carousel-slide {
+    display: flex;
+}
