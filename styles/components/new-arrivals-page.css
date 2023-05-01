@@ -71,6 +71,7 @@
     justify-content: space-evenly;
     margin-left: 50px;
     margin-right: 20px;
+    margin-bottom: 200px;
 }
 
 .shop-details__status {
@@ -100,6 +101,12 @@
 .shop-details__add {
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.shop-details__description-header {
+    font-size: 12px;
+    margin-bottom: 10px
 }
 
 .shop-details__wrapper {
