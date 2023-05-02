@@ -243,3 +243,14 @@
     }
 
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* повторити 4 рази з рівною шириною */
+    grid-gap: 10px; /* проміжок між колонками */
+  }
+  
+  .col {
+    background-color: #ddd; /* кольори для колонок */
+    padding: 10px;
+  }
