@@ -163,6 +163,18 @@
     .arrivals-header__logo {
         width: 182px;
     }
+
+    .shop-card {
+        display: block;
+    }
+    
+    .shop-details {
+            margin-left: -10px;
+    }
+    
+    .shop-carousel {
+          margin-bottom: 10px;
+    }
 }
 
 
