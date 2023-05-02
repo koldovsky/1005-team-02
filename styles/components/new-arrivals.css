@@ -45,3 +45,9 @@
 .products__carousel-slide {
     display: flex;
 }
+
+.product-carousel-btn-prev,
+.product-carousel-btn-next {
+    background-color: white;
+    border: none;
+}
