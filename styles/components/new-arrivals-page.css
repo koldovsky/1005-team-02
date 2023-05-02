@@ -127,17 +127,6 @@
     background: #edf0f5;
 }
 
-.shop-details__description span {
-    display: none;
-    position: relative;
-    padding: 0 10px 10px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    text-transform: uppercase;
-}
-
 .shop-details__wrapper {
     background-color: rgb(255, 230, 212);
     border-radius: 25px;
