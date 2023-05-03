@@ -18,9 +18,7 @@
 }
 .ads__fishes_in_water {
     background-image: url("img/goodsbg.jpg");
-    background-size: cover;
-    width: 240px;
-    height: 150px;
+  
     /* additional styles */
   }
   
