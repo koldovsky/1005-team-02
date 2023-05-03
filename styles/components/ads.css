@@ -16,7 +16,7 @@
     font-size: 48px;
     line-height: 48px;
 }
-.ads__fish {
+.ads .ads__fish {
     background-image: url("img/goodsbg.jpg");
     background-size: cover;
     /* additional styles */
