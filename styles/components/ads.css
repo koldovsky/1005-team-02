@@ -30,8 +30,8 @@
 
   .ads__goods_card {
     background-image: url(../../img/goodsbg.jpg);
-    /* background-size: 704px 322px; 
-    padding: 20px;*/
+    /* background-size: 704px 322px;*/ 
+    padding: 20px;
     position: relative;
     display: inline-block;
     box-sizing: border-box;
