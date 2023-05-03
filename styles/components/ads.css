@@ -18,7 +18,7 @@
 }
 .ads__goods_card {
     background-image: url("../../img/goodsbg.jpg");
-    background-size: cover;  
+    padding-bottom: 150px;
   }
   
   .card__title {
