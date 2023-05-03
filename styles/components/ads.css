@@ -17,9 +17,7 @@
     line-height: 48px;
 }
 .ads__goods_card {
-    background-image: url("img/goodsbg.jpg");
-  
-    /* additional styles */
+    background-image: url(img/goodsbg.jpg);
   }
   
   .card__title {
