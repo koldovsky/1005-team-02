@@ -17,7 +17,7 @@
     line-height: 48px;
 }
 
-  .ads__goods_card {
+  /* .ads__goods_card {
     background-image: url(../../img/goodsbg.jpg);
     background-size: cover;
     padding: 20px;
@@ -26,6 +26,17 @@
     box-sizing: border-box;
     width: 704px;
     height: 322px;
+  } */
+
+  .ads__goods_card {
+    background-image: url(../../img/goodsbg.jpg);
+    background-size: 704px 322px; /* set the width and height of the background image */
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
   }
   
   .card__goods-offer {
