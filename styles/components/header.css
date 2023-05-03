@@ -97,11 +97,10 @@
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: -100%;
     background-color: var(--secondary-bgc-color);
-    transition: left .3s linear; 
-    z-index: 0;
+    transition: all .3s linear; 
 }
 
 .burger__wrapper {
@@ -114,6 +113,7 @@
 .burger__menu.active {
     display: block;
     left: 0;
+    transition: all .3s linear;
 }
 
 .burger__menu .burger__item {

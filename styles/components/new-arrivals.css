@@ -25,6 +25,10 @@
     margin: 24px 0px 0px;
 }
 
+.new-arrivals__name {
+    color: var(--main-text-color);
+}
+
 .new-arrivals__slide h4 {
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
@@ -40,4 +44,10 @@
 
 .products__carousel-slide {
     display: flex;
+}
+
+.product-carousel-btn-prev,
+.product-carousel-btn-next {
+    background-color: white;
+    border: none;
 }

@@ -1,3 +1,10 @@
+.testimonials-cliens__carousel {
+    display: flex;
+    justify-content: center;
+}
+.testimonials-cliens__carousel-slide {
+    display: flex;
+}
 .testimonials-clients__title {
     color: var(--secondary-text-color);
     font-size: 30px;
@@ -5,11 +12,18 @@
     line-height: 36px;
     text-align: center;
 }
-@media (min-width: 768px) {
-    .testimonials-clients__title {
-        line-height: 1.2045;
-        font-size: 44px;
-    }
+.carousel__slide-clients {
+    border: 2px solid #ffe6d4;
+    margin-top: 20px;
+    padding: 33px 20px;
+}
+.carousel__slide-clients img {
+    width: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    
+}
 .examples-section__bone-image {
     margin: 15px auto;
 }
@@ -32,7 +46,6 @@
     font-size: 22px;
     text-align: center;
     margin-top: 20px;
-    
 }
 .testimonials__date {
     color: var(--secondary-text-color);
@@ -47,16 +60,11 @@
     text-align: center;
     margin-top: 20px;
 }
-.carousel__slide-clients {
-    border: 2px solid #ffe6d4;
-    margin-top: 20px;
-    padding: 33px 20px;
-}
-.carousel__slide-clients img {
-    width: 120px;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
+@media (min-width: 768px) {
+    .testimonials-clients__title {
+        line-height: 1.2045;
+        font-size: 44px;
+    }
 }
 @media (min-width: 770px) {
    .testimonials-clients__carousel  {
