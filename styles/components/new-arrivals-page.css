@@ -254,7 +254,8 @@
 .footer-col div,
 .footer-col img,
 .footer-col p {
-  margin-bottom: 20px; /* Set a 20px margin below each element only within the footer-col class */
+  margin-top: 20px; /* Set a 20px margin below each element only within the footer-col class */
+  margin-bottom: 20px;
 }
 
 .footer-col h6 {
@@ -262,7 +263,6 @@
     font-size: 22px;
     line-height: 1.3181;
     color: var(--secondary-text-color);
-    display: flex;
     justify-content: space-between;
 }
 
@@ -272,5 +272,12 @@
     border: 1px solid #ed6435;
     max-width: 75px;
     margin: 10px 0;
+}
+
+.footer-menu p{
+    font-weight: 700;
+    font-size: 15px;
+    color: #6B6B6B;
+
 }
 
