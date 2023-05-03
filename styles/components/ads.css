@@ -17,8 +17,7 @@
     line-height: 48px;
 }
 .ads__fish {
-    background-image: url('img/goodsbg.png');
-    background-repeat: no-repeat;
+    background-image: url("img/goodsbg.jpg");
     background-size: cover;
     /* additional styles */
   }
