@@ -1,4 +1,5 @@
-.arrivals_header {
+.arrivals_header,
+.arrivals_footer {
     background-color: var(--secondary-bgc-color);
 }
 
@@ -249,8 +250,27 @@
     grid-template-columns: repeat(4, 1fr); /* повторити 4 рази з рівною шириною */
     grid-gap: 10px; /* проміжок між колонками */
   }
-  
-  .col {
-    background-color: #ddd; /* кольори для колонок */
-    padding: 10px;
-  }
+
+.footer-col div,
+.footer-col img,
+.footer-col p {
+  margin-bottom: 20px; /* Set a 20px margin below each element only within the footer-col class */
+}
+
+.footer-col h6 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.3181;
+    color: var(--secondary-text-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col h6::after {
+    content: "";
+    display: block;
+    border: 1px solid #ed6435;
+    max-width: 75px;
+    margin: 10px 0;
+}
+
