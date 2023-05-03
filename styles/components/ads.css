@@ -16,10 +16,53 @@
     font-size: 48px;
     line-height: 48px;
 }
-.ads__goods_card {
+
+  .ads__goods_card {
     background-image: url(../../img/goodsbg.jpg);
-    padding-bottom: 150px;
+    background-size: cover;
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
   }
+  
+  .card__goods-offer {
+    color: #fff;
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .card__text {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .card__text-price {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  .card__goodslink {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .card__goodslink:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
   
   .card__title {
     font-size: 24px;
