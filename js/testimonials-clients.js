@@ -12,11 +12,12 @@ function showCurrentSlide() {
         const secondSlideIdx = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
         slideContainer.innerHTML += slides[secondSlideIdx];
         if (window.innerWidth > 990) {
-            const thirdSlideIdx = currentSlide + 1 >= slides.length ? 0 : currentSlide + 2;
+            const thirdSlideIdx = currentSlide + 1 >= slides.length ? 0 : secondSlideIdx + 1;
             slideContainer.innerHTML += slides[thirdSlideIdx];  
         }
     }
 }
+
 function nextSlide() {
     currentSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
     showCurrentSlide();
