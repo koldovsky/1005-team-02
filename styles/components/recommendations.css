@@ -1,45 +1,72 @@
 .recommendations__part-one {
-    padding: 100px 0 60px 0;
-   
+	padding: 100px 0 60px 0;
+  
 }
 
 .recommendation__caption {
-    text-align: center;
-    
+	text-align: center;
+	
 }
 
 .recommendation__caption-h2 {
-    color: var(--secondary-text-color);
-    font-size: 44px;
+	color: var(--secondary-text-color);
+	font-size: 44px;
 }
 
 .bone-positioning {
-    margin: 0px auto;
+	margin: 0px auto;
 }
 
 @media (max-width: 768px) {
 
 .recommendation__caption-h2{
-    font-size: 30px;
+	font-size: 30px;
 }
-    
+	
 }
 
 .recommendation__caption-paragraph {
-    font-size: 19px;
+	font-size: 19px;
 }
 
 .recommendation-list {
-    display: flex;
-    width: 100%;
-    margin: 0px auto;
-    overflow-x: auto;
-    white-space: nowrap;
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	overflow-x: auto;
+	white-space: nowrap;
 }
 
 .recommendation-list li {
-    padding: 15px 20px;
-    font-size: 17px;
-   
+	padding: 15px 20px;
+	font-size: 17px;
+  
+}
+
+.recommendation__filter-categories {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 50%;
+}
+
+.recommendation__filter div img {
+	width: 200px;
+	height: 200px;
+ }
+
+ .filter__item-caption {
+	font-size: 18px;
+	color: var(--main-text-color);
+ }
+
+ .filter__item-price {
+	color: var(--accent-text-color);
+ }
+
+.filter-btn__text{
+    color: var(--underline-color);
+    font-size: 16.5px;
 }
 

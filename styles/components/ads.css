@@ -16,18 +16,32 @@
     font-size: 48px;
     line-height: 48px;
 }
-.ads__fish {
-    background-image: url:('img/goodsbg.png');
-    background-repeat: no-repeat;
+
+  /* .ads__goods_card {
+    background-image: url(../../img/goodsbg.jpg);
     background-size: cover;
-    /* additional styles */
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 704px;
+    height: 322px;
+  } */
+
+  .ads__goods_card {
+    background-image: url(../../img/goodsbg.jpg);
+    background-size: 704px 322px; /* set the width and height of the background image */
+    background-repeat: no-repeat;
+    background-position: right center; /* align the background image to the right and center horizontally */
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
   }
   
-  .card__title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 16px;
-  }
+  
   
   
   
