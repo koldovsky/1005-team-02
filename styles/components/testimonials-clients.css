@@ -1,6 +1,7 @@
 .testimonials-cliens__carousel {
     display: flex;
     justify-content: center;
+    margin-top: 45px;
 }
 .testimonials-cliens__carousel-slide {
     display: flex;
@@ -15,14 +16,15 @@
 .carousel__slide-clients {
     border: 2px solid #ffe6d4;
     margin-top: 20px;
-    padding: 33px 20px;
+    padding: 45px 20px;
+    margin: 0 15px;
 }
 .carousel__slide-clients img {
     width: 120px;
     border-radius: 50%;
     display: block;
     margin: auto;
-    
+
 }
 .examples-section__bone-image {
     margin: 15px auto;
@@ -64,6 +66,10 @@
     .testimonials-clients__title {
         line-height: 1.2045;
         font-size: 44px;
+    }
+    .carousel__slide-clients img {
+        max-width: 120px;
+        max-height: 120px;
     }
 }
 @media (min-width: 770px) {
