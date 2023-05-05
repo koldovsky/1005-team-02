@@ -247,15 +247,15 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* повторити 4 рази з рівною шириною */
-    grid-gap: 80px; /* проміжок між колонками */
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 80px; 
   }
 
 .footer-col div,
 .footer-col img,
 .footer-col p,
 .footer-col h6  {
-  margin-top: 40px; /* Set a 20px margin below each element only within the footer-col class */
+  margin-top: 40px; 
 }
 
 .footer-col h6 {
