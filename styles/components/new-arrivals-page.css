@@ -251,11 +251,15 @@
     grid-gap: 80px; 
   }
 
+.footer-col {
+    margin-top: 20px; 
+}
+
 .footer-col div,
 .footer-col img,
 .footer-col p,
 .footer-col h6  {
-  margin-top: 40px; 
+    margin-top: 15px; 
 }
 
 .footer-col h6 {
@@ -274,7 +278,7 @@
     margin: 10px 0;
 }
 
-.footer-menu{
+.footer-menu a{
     font-weight: 700;
     font-size: 15px;
     color: #6B6B6B;
