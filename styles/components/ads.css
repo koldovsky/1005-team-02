@@ -48,6 +48,7 @@
     background-position: left center; /* align the background image to the right and center horizontally */
     padding: 20px;
     position:relative;
+    box-sizing: content-box;
     width: 300px;
     height: 250px;
   }
