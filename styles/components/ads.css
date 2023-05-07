@@ -32,8 +32,7 @@
     background-image: url(../../img/goodsbg.jpg);
     background-size: 704 340px; /* set the width and height of the background image */
     background-repeat: no-repeat;
-    background-position-x: 80%, 0%; /* align the background image to the right and center horizontally */
-    background-position-y: 92.95%, 0%;
+    background-position: right center; 
     padding: 20px;
     position: relative;
     display: inline-block;
@@ -48,8 +47,7 @@
 .ads__fishes_in_water{
   background-image: url(../../img/fishes.jpg);
   background-origin: padding-box;
-  background-position-x: 50.78%, 0%;
-  background-position-y: 92.95%, 0%;
+  background-position:left center;
   background-size: 453 339px;
 
 }
