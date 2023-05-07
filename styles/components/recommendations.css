@@ -29,7 +29,7 @@
 	font-size: 19px;
 }
 
-.recommendation-list {
+ .recommendation-list {
 	display: flex;
 	width: 100%;
 	margin: 0px auto;
@@ -68,5 +68,44 @@
 .filter-btn__text{
     color: var(--underline-color);
     font-size: 16.5px;
+} 
+
+.list__item{
+	display: inline-block;
+	padding: 20px;
 }
 
+.list{
+	text-align: center;
+	cursor: pointer;
+}
+.list__item.active {
+	font-weight: bold;
+ } 
+ 
+ .block__item {
+	padding: 15px;
+ }
+.block__row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -15px;
+ }
+ 
+ .block__item {
+	box-sizing: border-box;
+	padding: 15px;
+	width: calc(50% - 30px);
+ }
+ 
+ @media screen and (max-width: 991px) {
+	.block__item {
+	  width: calc(50% - 15px);
+	}
+ }
+ 
+ @media screen and (max-width: 767px) {
+	.block__item {
+	  width: calc(100% - 30px);
+	}
+ }
