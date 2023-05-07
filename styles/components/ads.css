@@ -33,7 +33,7 @@
     background-size: 453px 329px; /* set the width and height of the background image */
     background-repeat: no-repeat;
     background-position: 120px center; 
-    padding: 20px;
+  
     position: relative;
     display: inline-block;
     box-sizing: border-box;
@@ -47,13 +47,13 @@
   background-size: 453px 339px; /* set the width and height of the background image */
   background-repeat: no-repeat;
   background-position: right center; 
-  padding: 20px;
+
   position: relative;
   display: inline-block;
   box-sizing: border-box;
-  width: 500px;
-  height: 400px;
-  padding: 20px;
+  width: 453px;
+  height: 339px;
+
 }
   
   
