@@ -32,7 +32,7 @@
     background-image: url(../../img/goodsbg.jpg);
     background-size: 704px 322px; /* set the width and height of the background image */
     background-repeat: no-repeat;
-    background-position: right center; /* align the background image to the right and center horizontally */
+    background-position: rightg; /* align the background image to the right and center horizontally */
     padding: 20px;
     position: relative;
     display: inline-block;
