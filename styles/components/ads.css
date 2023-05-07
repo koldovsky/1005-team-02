@@ -46,7 +46,7 @@
   background-image: url(../../img/fishes.jpg);
   background-size: 704px 322px; /* set the width and height of the background image */
   background-repeat: no-repeat;
-  background-position: right center; /* align the background image to the right and center horizontally */
+  background-position: left; /* align the background image to the right and center horizontally */
   padding: 20px;
   position: relative;
   display: inline-block;
