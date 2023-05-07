@@ -44,15 +44,10 @@
   
 .ads__fishes_in_water{
   background-image: url(../../img/fishes.jpg);
-  background-size: 433px 322px; /* set the width and height of the background image */
-  background-repeat: no-repeat;
-  background-position: left center; /* align the background image to the right and center horizontally */
-  padding: 20px;
-  position: relative;
-  display: inline-block;
-  box-sizing: border-box;
-  width: 500px;
-  height: 400px;
+  background-origin: padding-box;
+  background-position-x: 50.78%, 0%;
+  background-position-y: 92.95%, 0%;
+  
 
 }
   
