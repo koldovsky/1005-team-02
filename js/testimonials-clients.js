@@ -5,6 +5,7 @@ const slides = [
 '<div class="carousel__slide-clients"><img src="img/carousel-clients04.jpg" alt="hamster"><h3 class="testimonials-client__name">Dean Williamson</h3><p class="testimonials_client__subtitle">with Booper, the star of his Instagram</p><p class="testimonials__client_comment">"Booper gets all the best from me and the Happy Paw store! I often treat him with some new toys, decorations for his cage, etc. I absolutely trust Happy Paw."</p><p class="testimonials__date">May 05,2022</p></div>'
 ];
 let currentSlide = 0;
+
 function showCurrentSlide() {
     const slideContainer = document.querySelector('.testimonials-cliens__carousel-slide');
     slideContainer.innerHTML = slides[currentSlide];
@@ -23,10 +24,9 @@ function nextSlide() {
     showCurrentSlide();
 }
 function prevSlide() {
-    currentSlide = currentSlide - 1 >= slides.length ? - 1 : currentSlide - 1;
-    showCurrentSlide(); 
+    currentSlide = currentSlide - 1 < 0 ? slides.length - 1 : currentSlide - 1;
+    showCurrentSlide();
 }
-
 nextSlide();
 
 const btnNext = document.querySelector('.testimonials-cliens__carousel-btn-next');
