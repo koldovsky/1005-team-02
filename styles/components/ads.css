@@ -81,6 +81,8 @@
     /* justify-content: space-between; */
     margin-top: 45px;
     margin-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 5px;
   }
   
   .carousel_goods_slides img {
