@@ -14,10 +14,18 @@
     text-align: center;
     
 }
+.banners__discount p{
+    margin-top: 50px;
+}
+.banners__discount a{
+    margin-left: auto;
+    margin-right: auto;
+}
 .card{
     position: relative;  
     margin: 10px 15px;
 }
+
 .card img{
     display: inline-block;
     height:auto;
@@ -46,11 +54,31 @@
     color: var(--accent-text-color);
     font-weight: 700;
 }
+.carousel__slide{
+    border: solid;
+    border-color: var(--top-line-bg-color);
+    margin: 10px;
+    width: fit-content;
+    max-width: 260px;
+    height: 300px;
+}
+.carousel__slide h3{
+    font-style: Baloo 2;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+}
+.carousel__slide__text{
+    margin: 5px 5px 5px 5px;
+    
+}
 .products-for-pets{
     font-style: PT Sans;
     font-size: 44px;
 }
 .products-for-pets h2{
+    text-align: center;
+    margin-top: 50px;
     font-style: Baloo 2;
     color: var(--secondary-text-color);
     font-size: 44px;
@@ -58,14 +86,54 @@
 }
 .products-for-pets p{
     font-style: Baloo 2;
-    font-size: 12px;
+    font-size: 16px;
 }
-.products-for-pets__text{
-    font-style: PT Sans;
+.products-for-pets__text {
     font-size: 24px;
+    margin-top: 20px;
     text-align: center;
 }
 .products-for-pets img{
+    border-radius:50%;
     width: 100px;
     height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.products-for-pets__carousel {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+}
+
+.products-for-pets__carousel__inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.products-for-pets__carousel .carousel__slide {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.products-for-pets__carousel .carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.products-for-pets__carousel .carousel__button--prev {
+    left: 10px;
+}
+
+.products-for-pets__carousel .carousel__button--next {
+    right: 10px;
 }
