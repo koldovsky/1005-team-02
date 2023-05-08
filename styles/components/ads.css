@@ -1,3 +1,120 @@
+/* General styles */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Advertisements */
+
+.global__advertisments {
+  background-color: antiquewhite;
+  margin-top: 40px;
+}
+
+.advertisments {
+  display: flex;
+  margin-top: 40px;
+}
+
+.ads__fishes,
+.ads__goods_card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 50%;
+  height: 370px;
+}
+
+.ads__fishes {
+  background-image: url(../../img/fishes.jpg);
+  background-size: 600px 370px; 
+  background-position: right center; 
+  margin-right: 35px;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #3C3731;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.card__fishlink-button,
+.card__goodslink {
+  font-weight: bold;
+  font-family: 'Baloo 2', cursive;
+  color: #3C3731;
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 2px solid #3C3731;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.card__fishlink-button:hover,
+.card__goodslink:hover {
+  background-color: #3C3731;
+  color: white;
+}
+
+.ads__goods_card {
+  background-image: url(../../img/goods_blue_bg.jpg);
+  background-size: 600px 370px;
+  background-position: left center;
+  margin-left: 35px;
+}
+
+.card__goods-offer {
+  font-weight: bold;
+  font-family: 'Baloo 2', cursive;
+  font-size: 48px;
+  line-height: 48px;
+  color: #3C3731;
+  margin-bottom: 20px;
+}
+
+.card__text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #3C3731;
+  margin-bottom: 10px;
+}
+
+.card__text-price {
+  font-size: 24px;
+  line-height: 32px;
+  color: #3C3731;
+  margin-bottom: 20px;
+}
+
+/* Pet food carousel */
+
+.pet-food__carousel {
+  margin-top: 40px;
+}
+
+.carousel_goods_slides {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.carousel_goods_slides img {
+  width: calc(33.33% - 10px);
+  height: auto;
+  margin: 5px;
+}
+
 /*.card__title{
     font-weight: bold ;
 }
@@ -70,148 +187,3 @@
   margin-top: 45px;
   margin-bottom: 60px;
 }*/
-.card__title{
-  font-weight: bold ;
-}
-.card .card__fishlink-button{
-      font-weight: bold;
-      font-family: 'Baloo 2', cursive;
-      color: #3C3731;
-      font-size: 20px;
-      line-height: 20px;
-  
-}
-.ads .card__goods-offer{
-  font-weight: bold;
-  font-family: 'Baloo 2', cursive;
-  color: #3C3731;
-  font-size: 48px;
-  line-height: 48px;
-}
-
-.global__advertisments{
-  background-color: antiquewhite;
-  margin-top: 40px;
-}
-.advertisments{
-  display: flex;
-  margin-top: 40px;
-  
-}
-.ads__goods_card {
-  background-image: url(../../img/goods_blue_bg.jpg);
-  background-size: 600px 370px;
-  background-position: left center; /* align the background image to the right and center horizontally */
-  position:relative;
-  box-sizing: border-box;
-  display: inline-block;
-  width: 600px;
-  height: 370px;
-  margin-top: 40px;
-}
-
-
-.ads__fishes{
-background-image: url(../../img/fishes.jpg);
-background-size: 600px 370px; 
-background-position: right center; 
-position: relative;
-display: inline-block;
-box-sizing: border-box;
-margin-right:35px;
-margin-top: 40px;
-width: 600px;
-height: 370px;
-}
-
-.carousel_goods_slides {
-display: flex;
-justify-content: space-between;
-margin-left: 2px;
-margin-right: 2px;
-margin-left: 35px;
-margin-right: 35px;
-}
-
-.carousel_goods_slides img {
-width: 215px;
-height: 110px;
-margin-left: 2px;
-margin-right:2px;
-margin-top: 60px;
-margin-top: 45px;
-margin-bottom: 60px;
-}.card__title{
-  font-weight: bold ;
-}
-.card .card__fishlink-button{
-      font-weight: bold;
-      font-family: 'Baloo 2', cursive;
-      color: #3C3731;
-      font-size: 20px;
-      line-height: 20px;
-  
-}
-.ads .card__goods-offer{
-  font-weight: bold;
-  font-family: 'Baloo 2', cursive;
-  color: #3C3731;
-  font-size: 48px;
-  line-height: 48px;
-}
-
-.global__advertisments{
-  background-color: antiquewhite;
-  margin-top: 40px;
-}
-.advertisments{
-  display: flex;
-  margin-top: 40px;
-  
-}
-.ads__goods_card {
-  background-image: url(../../img/goods_blue_bg.jpg);
-  background-size: 600px 370px;
-  background-position: left center; /* align the background image to the right and center horizontally */
-  position:relative;
-  box-sizing: border-box;
-  display: inline-block;
-  width: 600px;
-  height: 370px;
-  margin-top: 40px;
-}
-
-
-.ads__fishes{
-background-image: url(../../img/fishes.jpg);
-background-size: 600px 370px; 
-background-position: right center; 
-position: relative;
-display: inline-block;
-box-sizing: border-box;
-margin-right:35px;
-margin-top: 40px;
-width: 600px;
-height: 370px;
-}
-
-.carousel_goods_slides {
-display: flex;
-justify-content: space-between;
-margin-left: 2px;
-margin-right: 2px;
-margin-left: 35px;
-margin-right: 35px;
-}
-
-.carousel_goods_slides img {
-width: 215px;
-height: 110px;
-margin-left: 2px;
-margin-right:2px;
-margin-top: 60px;
-margin-top: 45px;
-margin-bottom: 60px;
-}
-
-  
