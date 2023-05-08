@@ -78,14 +78,15 @@
   .carousel_goods_slides {
     display: flex;
     justify-content: space-between;
-    margin: 0 -5px;
+    margin-left: 2px;
+    margin-right: 2px;
   }
   
   .carousel_goods_slides img {
     width: 215px;
-    height: 80px;
-    margin-left: 5px;
-    margin-right:5px;
+    height: 65px;
+    margin-left: 2px;
+    margin-right:2px;
     margin-top: 15px;
     margin-bottom: 20px;
   }
