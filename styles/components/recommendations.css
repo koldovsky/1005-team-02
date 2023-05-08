@@ -51,10 +51,6 @@
 	max-width: 50%;
 }
 
-.recommendation__filter div img {
-	width: 200px;
-	height: 200px;
- }
 
  .filter__item-caption {
 	font-size: 18px;
@@ -68,6 +64,10 @@
 .filter-btn__text{
     color: var(--underline-color);
     font-size: 16.5px;
+	display: inline-block;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
 } 
 
 .list__item{
@@ -109,3 +109,20 @@
 	  width: calc(100% - 30px);
 	}
  }
+
+ .recommendation__filter-categories {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 50%;
+	overflow: auto;
+}
+
+.block__main, img {
+	padding: 10px 0px;
+}
+
+
+  
+  
