@@ -42,6 +42,7 @@
   } */
   .global__ads{
     background-color: antiquewhite;
+    margin-top: 40px;
   }
   .ads{
     display: flex;
