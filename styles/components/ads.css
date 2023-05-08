@@ -40,11 +40,11 @@
     width: 453px;
     height: 329px;
   } */
-  .global__ads{
+  .global__advertismants .container{
     background-color: antiquewhite;
     margin-top: 40px;
   }
-  .ads{
+  .advertismants{
     display: flex;
     margin-top: 40px;
     
