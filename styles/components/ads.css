@@ -79,8 +79,6 @@
   .carousel_goods_slides {
     display: flex;
     justify-content: space-between;
-    margin-left: 35px;
-    margin-right: 35px;
     margin-top: 45px;
     margin-bottom: 60px;
   }
