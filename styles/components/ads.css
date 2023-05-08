@@ -141,6 +141,77 @@ margin-right:2px;
 margin-top: 60px;
 margin-top: 45px;
 margin-bottom: 60px;
+}.card__title{
+  font-weight: bold ;
+}
+.card .card__fishlink-button{
+      font-weight: bold;
+      font-family: 'Baloo 2', cursive;
+      color: #3C3731;
+      font-size: 20px;
+      line-height: 20px;
+  
+}
+.ads .card__goods-offer{
+  font-weight: bold;
+  font-family: 'Baloo 2', cursive;
+  color: #3C3731;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.global__advertisments{
+  background-color: antiquewhite;
+  margin-top: 40px;
+}
+.advertisments{
+  display: flex;
+  margin-top: 40px;
+  
+}
+.ads__goods_card {
+  background-image: url(../../img/goods_blue_bg.jpg);
+  background-size: 600px 370px;
+  background-position: left center; /* align the background image to the right and center horizontally */
+  position:relative;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 600px;
+  height: 370px;
+  margin-top: 40px;
+}
+
+
+.ads__fishes{
+background-image: url(../../img/fishes.jpg);
+background-size: 600px 370px; 
+background-position: right center; 
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+margin-right:35px;
+margin-top: 40px;
+width: 600px;
+height: 370px;
+}
+
+.carousel_goods_slides {
+display: flex;
+justify-content: space-between;
+margin-left: 2px;
+margin-right: 2px;
+margin-left: 35px;
+margin-right: 35px;
+}
+
+.carousel_goods_slides img {
+width: 215px;
+height: 110px;
+margin-left: 2px;
+margin-right:2px;
+margin-top: 60px;
+margin-top: 45px;
+margin-bottom: 60px;
 }
 
   
