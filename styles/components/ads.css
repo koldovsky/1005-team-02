@@ -87,7 +87,7 @@
 
 /* Style the individual slides */
 .carousel_goods_slides img {
-  display: inline-flex;
+  display: inline-block;
   width: 120px;
   height: 70px;
   margin-right: 5px;
