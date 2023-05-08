@@ -1,10 +1,21 @@
 .banners {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px;
     justify-content: center;
 }
+.banners__food {
+    background: url('../../img/bg_food_for_pets.jpg') 81.41% 58.49% / cover no-repeat;
+    height:auto;
+    
+}
+.banners__discount {
+    background: url('../../img/bg_cats_dog_stuff.jpg') 81.41% 58.49% / cover no-repeat;
+    text-align: center;
+    
+}
 .card{
-      
+    position: relative;  
     margin: 10px 15px;
 }
 .card img{
@@ -13,8 +24,13 @@
     justify-content: center;
     
 }
+.colortext{
+    color: var(--accent-text-color);
+    font-weight: 700;
+
+}
 .banners h2{
-    color: #3C3731;
+    color: var(--secondary-text-color);
     font-size: 48px;
     line-height: 48px;
     margin-bottom: 0;
@@ -24,13 +40,19 @@
     font-style: Baloo 2;
     font-size: 18px;
 }
+.banners__food p{
+    font-style: Baloo 2;
+    font-size: 14px;
+    color: var(--accent-text-color);
+    font-weight: 700;
+}
 .products-for-pets{
     font-style: PT Sans;
     font-size: 44px;
 }
 .products-for-pets h2{
     font-style: Baloo 2;
-    color: #3C3731;
+    color: var(--secondary-text-color);
     font-size: 44px;
     font-weight: bold;
 }
@@ -38,7 +60,11 @@
     font-style: Baloo 2;
     font-size: 12px;
 }
-
+.products-for-pets__text{
+    font-style: PT Sans;
+    font-size: 24px;
+    text-align: center;
+}
 .products-for-pets img{
     width: 100px;
     height: fit-content;
