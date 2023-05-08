@@ -111,8 +111,6 @@
     width: 100%;
 }
 
-
-
 .trending__arrow-left,
 .trending__arrow-right {
     position: absolute;
@@ -198,3 +196,9 @@
         right: -25px;
     }
 }
+
+.trending__cards-wrapper {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /**/
