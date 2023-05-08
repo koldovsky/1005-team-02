@@ -40,23 +40,26 @@
     width: 453px;
     height: 329px;
   } */
-
+  .ads{
+    display: flex;
+    
+}
   .ads__goods_card {
     background-image: url(../../img/goods_blue_bg.jpg);
-    background-size: 453px 339px; /* set the width and height of the background image */
+    /* background-size: 453px 339px; set the width and height of the background image */
     background-repeat: no-repeat;
-    background-position: left center; /* align the background image to the right and center horizontally */
-    padding: 20px;
+    background-position: 345px center; /* align the background image to the right and center horizontally */
     position:relative;
     box-sizing: border-box;
-    width: 300px;
-    height: 250px;
+    display: inline-block;
+    width: 453px;
+    height: 339px;
   }
   
   
 .ads__fishes_in_water{
   background-image: url(../../img/fishes.jpg);
-  background-size: 453px 339px; /* set the width and height of the background image */
+  /* background-size: 453px 339px; set the width and height of the background image */
   background-repeat: no-repeat;
   background-position: right center; 
   position: relative;
@@ -64,7 +67,7 @@
   box-sizing: border-box;
   width: 453px;
   height: 339px;
-
+  margin-left: 100px;
 }
   
   
