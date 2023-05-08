@@ -40,9 +40,11 @@
     width: 453px;
     height: 329px;
   } */
+  .global__ads{
+    background-color: bisque;
+  }
   .ads{
     display: flex;
-    background-color: bisque;
     
 }
   .ads__goods_card {
