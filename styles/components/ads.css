@@ -65,6 +65,7 @@
   display: inline-block;
   box-sizing: border-box;
   margin-right:35px;
+  margin-left: 350px;
   width: 600px;
   height: 370px;
 }
@@ -88,6 +89,6 @@
     margin-left: 2px;
     margin-right:2px;
     margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
   
