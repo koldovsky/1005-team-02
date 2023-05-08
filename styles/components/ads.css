@@ -52,8 +52,8 @@
     position:relative;
     box-sizing: border-box;
     display: inline-block;
-    width: 420px;
-    height: 412px;
+    /* width: 420px;
+    height: 412px; */
   }
   
   
@@ -65,8 +65,8 @@
   position: relative;
   display: inline-block;
   box-sizing: border-box;
-  width: 420px;
-  height: 412px;
+  /* width: 420px;
+  height: 412px; */
   margin-left: 100px;
   margin-right:100px;
 }
