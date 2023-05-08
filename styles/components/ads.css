@@ -66,7 +66,20 @@
   height: 110px;
   margin-left: 2px;
   margin-right:2px;
-  margin-top: 60px;
   margin-top: 45px;
   margin-bottom: 60px;
+}
+.pet-food__arrow-left,
+.pet-foof__arrow-right {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.pet-food__arrow-left {
+  left: 0;
+}
+
+.petfood__arrow-right {
+  right: 0;
 }
