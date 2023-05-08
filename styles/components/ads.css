@@ -43,6 +43,7 @@
   .global__advertisments{
     background-color: antiquewhite;
     margin-top: 40px;
+    width: 100%;
   }
   .advertisments{
     display: flex;
