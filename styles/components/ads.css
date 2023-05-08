@@ -84,6 +84,7 @@
   .carousel_goods_slides img {
     width: 210px;
     height: 90px;
-    margin: 0 5px;
+    margin-left: 5px;
+    margin-right:5px;
   }
   
