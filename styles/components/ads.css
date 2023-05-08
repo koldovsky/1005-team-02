@@ -72,7 +72,7 @@
   
   
 .pet-food__carousel {
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
   }
   
@@ -86,7 +86,7 @@
   .carousel_goods_slides img {
     width: 215px;
     height: 110px;
-    margin: 2px 2px;
+    margin: 0 2px;
    
   }
   
