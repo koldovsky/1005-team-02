@@ -58,6 +58,8 @@
 .pet-food_carousel_slide {
   display: flex;
   justify-content: space-between;
+  height: 90px;
+  width: 120;
   margin-left: 2px;
   margin-right: 2px;
   margin-left: 35px;
