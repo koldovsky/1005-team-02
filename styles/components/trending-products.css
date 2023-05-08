@@ -5,6 +5,7 @@
     text-align: center;
     color: var(--secondary-text-color);
 }
+
 .trending__caption h2 {
     font-family: 'PT Sans', sans-serif;
     font-size: 19px;
@@ -13,6 +14,7 @@
     text-align: center;
     margin-bottom: 60px;
 }
+
 .trending__carousel-bloc h3 {
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
@@ -33,7 +35,9 @@
     text-decoration: none;
 }
 
-.wrapper {
+.trending__name {
+    width: 144px;
+    height: 48px;
     background-color: rgb(178, 231, 233);
     border-radius: 25px;
     display: inline-block;
@@ -46,21 +50,21 @@
     margin: 24px 0px 0px;
 }
 
-.wrapper:hover .add-btn__text {
+.trending__name:hover .add-btn__text {
     color: rgb(237, 100, 53);
 }
 
-.wrapper:active {
+.trending__name:active {
     background-color: rgb(69, 193, 199);
 }
 
-.wrapper:hover {
+.trending__name:hover {
     border: solid rgb(255, 230, 212) 1px;
     background-color: rgb(255, 230, 212);
     transition: border 0s ease, bacground-color 0s ease;
 }
 
-.wrapper:not(:hover) {
+.trending__name:not(:hover) {
     animation: blink 0.5s;
 }
 
@@ -83,17 +87,69 @@
     user-select: none;
 }
 
-.trending__carousel-bloc {
-    display: inline-block;
-    padding: 20px 15px;
+
+
+
+/**************************/
+.trending__carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 45px;
 }
 
-.trending__carousel {
+.trending__carousel-bloc {
+    max-width: 100%;
+    flex: 1 0 100%;
     display: flex;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 293px 293px 293px 293px;
+    flex-direction: column;
+    margin-bottom: 24px;
 }
+
+.preview-img {
+    width: 100%;
+}
+
+.trending__img {
+    width: 100%;
+}
+
+
+
+.trending__arrow-left,
+.trending__arrow-right {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.trending__arrow-left {
+    left: 0;
+}
+
+.trending__arrow-right {
+    right: 0;
+}
+
+.trending {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 90px 0;
+    background-color: #fff;
+}
+
+.trending__cards {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+
 
 @media (max-width: 768px) {
     .trending__carousel {
@@ -106,10 +162,43 @@
     .trending__carousel {
         grid-template-columns: 352px 352px;
     }
+
+    .trending__cards-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .trending__card-item {
+        margin: 0;
+    }
+
+    .trending__arrow-left {
+        left: -10px;
+    }
+
+    .trending__arrow-right {
+        right: -10px;
+    }
 }
 
 @media (min-width: 991px) {
     .trending__carousel {
         grid-template-columns: 323px 323px 323px 323px;
+    }
+
+    .trending__cards-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+
+    }
+
+    .trending__arrow-left {
+        left: -25px;
+    }
+
+    .trending__arrow-right {
+        right: -25px;
     }
 }
