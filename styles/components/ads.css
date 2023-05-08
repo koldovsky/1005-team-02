@@ -42,8 +42,7 @@
   } */
   .ads{
     display: flex;
-    justify-content: space-between;
-    margin: 0 -5px;
+    
 }
   .ads__goods_card {
     background-image: url(../../img/goods_blue_bg.jpg);
