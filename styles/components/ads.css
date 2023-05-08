@@ -46,14 +46,14 @@
 }
   .ads__goods_card {
     background-image: url(../../img/goods_blue_bg.jpg);
-    background-size: 500px 350px; 
+    background-size: 500px 340px; 
     background-repeat: no-repeat;
     background-position: left center; /* align the background image to the right and center horizontally */
     position:relative;
     box-sizing: border-box;
     display: inline-block;
     width: 500px;
-    height: 350px;
+    height: 340px;
   }
   
   
