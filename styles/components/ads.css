@@ -58,7 +58,7 @@
     display: inline-block;
     width: 600px;
     height: 370px;
-  
+    margin-top: 40px;
   }
   
   
@@ -71,6 +71,7 @@
   box-sizing: border-box;
   margin-right:35px;
   margin-left: 350px;
+  margin-top: 40px;
   width: 600px;
   height: 370px;
 }
