@@ -59,13 +59,13 @@
   
 .ads__fishes{
   background-image: url(../../img/fishes.jpg);
-  background-size: 550px 370px; 
+  background-size: 600px 370px; 
   background-position: right center; 
   position: relative;
   display: inline-block;
   box-sizing: border-box;
   margin-right:10px;
-  width: 550px;
+  width: 600px;
   height: 370px;
 }
   
