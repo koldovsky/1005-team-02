@@ -1,6 +1,7 @@
 (function () {
     const slides = [
       `
+      <div class="pet-food_carousel_slide">
       <img class="pet-food_carousel_slide" src="img/applaws.png" alt="AllPaws" />
       <img class="pet-food_carousel_slide" src="img/tigerino.png" alt="Tigerino" />
       <img class="pet-food_carousel_slide" src="img/gourmet.png" alt="Gourmet" />
@@ -8,6 +9,7 @@
       <img class="pet-food_carousel_slide" src="img/purizon.png" alt="Purizon" />
       <img class="pet-food_carousel_slide" src="img/rocco.png" alt="Rocco" />
       <img class="pet-food_carousel_slide" src="img/dokas.png" alt="Dokas" />
+      </div>
       `,
     ];
   
