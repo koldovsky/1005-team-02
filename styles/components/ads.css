@@ -83,11 +83,12 @@
 .carousel_goods_slides {
   white-space: nowrap;
   font-size: 0;
+  display: inline-block;
 }
 
 /* Style the individual slides */
 .carousel_goods_slides img {
-  display: inline-block;
+  
   width: 120px;
   height: 70px;
   margin-right: 5px;
