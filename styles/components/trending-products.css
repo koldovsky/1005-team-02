@@ -87,17 +87,13 @@
     user-select: none;
 }
 
-
-
-
 /**************************/
 .trending__carousel {
     position: relative;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 45px;
-}
+    }
 
 .trending__carousel-bloc {
     max-width: 100%;
