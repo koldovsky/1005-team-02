@@ -64,15 +64,15 @@
   
 .ads__fishes{
   background-image: url(../../img/fishes.jpg);
-  background-size: 322px 290px; 
+  background-size: 644px 580px; 
   background-position: right center; 
   position: relative;
   display: inline-block;
   box-sizing: border-box;
   margin-right:35px;
   margin-top: 40px;
-  width: 322px;
-  height: 290px;
+  width: 644px;
+  height: 580px;
 }
   
 .carousel_goods_slides {
