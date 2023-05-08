@@ -45,7 +45,7 @@
     margin-top: 40px;
   }
   .advertismants{
-    display: flex;
+    display: inline-block;
     margin-top: 40px;
     
 }
