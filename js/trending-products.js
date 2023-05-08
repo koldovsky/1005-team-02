@@ -98,9 +98,7 @@
           currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
       renderSlide()
     }
-  
-
-      
+        
     renderSlide();
   
     const nextBtn = document.querySelector('.trending__arrow-right')
