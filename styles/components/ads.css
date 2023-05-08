@@ -59,14 +59,14 @@
   
 .ads__fishes_in_water{
   background-image: url(../../img/fishes.jpg);
-  background-size: 500px 390px; 
+  background-size: 480px 322px; 
   background-repeat: no-repeat;
   background-position: right center; 
   position: relative;
   display: inline-block;
   box-sizing: border-box;
-  width: 500px;
-  height: 390px;
+  width: 420px;
+  height: 322px;
   margin-left: 100px;
   margin-right:100px;
 }
