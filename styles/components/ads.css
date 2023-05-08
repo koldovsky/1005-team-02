@@ -72,13 +72,13 @@
   
   
 .pet-food__carousel {
-    /* width: 100%; */
+    width: 100%;
     overflow: hidden;
   }
   
   .carousel_goods_slides {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-top: 45px;
     margin-bottom: 60px;
   }
