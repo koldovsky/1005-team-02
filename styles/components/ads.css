@@ -53,6 +53,7 @@
     display: inline-block;
     width: 600px;
     height: 370px;
+    margin-right: 500;
   }
   
   
@@ -63,8 +64,8 @@
   position: relative;
   display: inline-block;
   box-sizing: border-box;
-  margin-left: 100px;
-  margin-right:35px;
+  margin-left: 500px;
+  margin-right:10px;
   width: 550px;
   height: 370px;
 }
