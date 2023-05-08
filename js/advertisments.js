@@ -1,13 +1,13 @@
 (function () {
     const slides = [
       `
-      <img src="img/applaws.png" alt="AllPaws" />
-    <img src="img/tigerino.png" alt="Tigerino" />
-    <img src="img/gourmet.png" alt="Gourmet" />
-    <img src="img/felix.png" alt="Felix" />
-    <img src="img/purizon.png" alt="Purizon" />
-    <img src="img/rocco.png" alt="Rocco" />
-    <img src="img/dokas.png" alt="Dokas" />
+      <img class="pet-food_carousel_slide" src="img/applaws.png" alt="AllPaws" />
+      <img class="pet-food_carousel_slide" src="img/tigerino.png" alt="Tigerino" />
+      <img class="pet-food_carousel_slide" src="img/gourmet.png" alt="Gourmet" />
+      <img class="pet-food_carousel_slide" src="img/felix.png" alt="Felix" />
+      <img class="pet-food_carousel_slide" src="img/purizon.png" alt="Purizon" />
+      <img class="pet-food_carousel_slide" src="img/rocco.png" alt="Rocco" />
+      <img class="pet-food_carousel_slide" src="img/dokas.png" alt="Dokas" />
       `,
     ];
   

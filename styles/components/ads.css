@@ -52,7 +52,7 @@
   height: 370px;
 }
   
-.carousel_goods_slides {
+.pet-food_carousel_slide {
   display: flex;
   justify-content: space-between;
   margin-left: 2px;
@@ -61,7 +61,7 @@
   margin-right: 35px;
 }
 
-.carousel_goods_slides img {
+.pet-food_carousel_slide img {
   width: 215px;
   height: 110px;
   margin-left: 2px;
