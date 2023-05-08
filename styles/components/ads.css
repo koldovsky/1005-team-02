@@ -42,6 +42,7 @@
   } */
   .ads{
     display: flex;
+    background-color: bisque;
     
 }
   .ads__goods_card {
