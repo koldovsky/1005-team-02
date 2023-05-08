@@ -40,7 +40,7 @@
     width: 453px;
     height: 329px;
   } */
-  .global__advertisments{
+  .global__advertisments .container{
     background-color: antiquewhite;
     margin-top: 40px;
   }
@@ -70,7 +70,7 @@
   display: inline-block;
   box-sizing: border-box;
   margin-right:35px;
-  margin-left: 420px;
+  margin-left: 450px;
   margin-top: 40px;
   width: 600px;
   height: 370px;
