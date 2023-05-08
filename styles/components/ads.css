@@ -81,6 +81,8 @@
     justify-content: space-between;
     margin-left: 35px;
     margin-right: 35px;
+    margin-top: 45px;
+    margin-bottom: 60px;
   }
   
   .carousel_goods_slides img {
@@ -88,7 +90,6 @@
     height: 110px;
     margin-left: 2px;
     margin-right:2px;
-    margin-top: 45px;
-    margin-bottom: 60px;
+   
   }
   
