@@ -45,6 +45,7 @@
   }
   .ads{
     display: flex;
+    margin-top: 40px;
     
 }
   .ads__goods_card {
