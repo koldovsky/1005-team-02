@@ -46,27 +46,27 @@
 }
   .ads__goods_card {
     background-image: url(../../img/goods_blue_bg.jpg);
-    background-size: 480px 322px; 
+    background-size: 420px 412px; 
     background-repeat: no-repeat;
     background-position: left center; /* align the background image to the right and center horizontally */
     position:relative;
     box-sizing: border-box;
     display: inline-block;
-    width: 480px;
-    height: 322px;
+    width: 420px;
+    height: 412px;
   }
   
   
 .ads__fishes_in_water{
   background-image: url(../../img/fishes.jpg);
-  background-size: 420px 322px; 
+  background-size: 420px 412px; 
   background-repeat: no-repeat;
   background-position: right center; 
   position: relative;
   display: inline-block;
   box-sizing: border-box;
   width: 420px;
-  height: 322px;
+  height: 412px;
   margin-left: 100px;
   margin-right:100px;
 }
