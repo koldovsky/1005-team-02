@@ -1,3 +1,36 @@
+.about-us {
+    background: var(--secondary-bgc-color);
+}
+.cat__parrot {
+    width: 446px;
+    height: 484px;
+    display: inline;
+}
+.bone__about {
+    width: 447px;
+    height: 32px;
 
-
-
+}
+.about__van {
+    width: 26px;
+    height: 26px;
+}
+.about__box {
+    width: 26px;
+    height: 26px;
+}
+.about__card {
+    width: 26px;
+    height: 26px;
+}
+.about__headphone {
+    width: 26px;
+    height: 26px;
+}
+.about__us__list {
+    list-style-image: url(/icons/litle-foot.svg);
+    line-height: 40px; 
+}
+.about__title {
+    display: inline;
+}
