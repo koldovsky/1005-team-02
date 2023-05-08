@@ -5,4 +5,5 @@ document.addEventListener("partialsLoaded", () => {
   import("./food-examples.js");
   import("./recomendations.js");
   import("./trending-products.js");
+  import("./timer.js")
 });

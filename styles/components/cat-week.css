@@ -1,33 +1,123 @@
 .cat-week {
     padding: 90px 0px 100px;
-    background: url(../../img/cat-week_background.jpg)
+    background-image: url(../../img/cat-week_background.jpg);
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
 .info_promotion {
-    color: #45C1C7;
+    color: var(--underline-color);
     font-size: 15px;
     font-family: "PT sans", sans-serif;
     font-weight: 600;
 }
 
 .info_finaly-here {
-    color: #3C3731;
-    margin-top: 40px;
+    color: var(--secondary-text-color);
+    margin-top: 10px;
     padding: 0;
-    font-size: 70px;
+    font-size: 48px;
     font-family: "Baloo 2", cursive;
-
-    line-height: 70px;
+    line-height: 48px;
 }
 
 .info_specisl-price {
-    color: #958B7E;
+    margin-top: 50px;
+    color: var(--main-text-color);
     font-family: "PT sans", sans-serif;
     font-size: 19px;
 }
 
 .sale {
-    color: #ED6435;
+    color: var(--accent-text-color);
     font-family: "PT sans", sans-serif;
     font-weight: bold;
+}
+
+.timer {
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 0;
+  padding-bottom: 15%;
+  position: relative;
+}
+
+.timer .timer-item {
+  border: 1px solid var(--underline-color);
+  border-radius: 5px;
+  padding: 15px;
+  width: 20%;
+  height: 0;
+  padding-bottom: 16%;
+  text-align: center;
+}
+
+.timer-item .value {
+  font-size: 4vw;
+  font-family: "Baloo 2", cursive;
+  color: var(--secondary-text-color);
+}
+
+.timer-item .label {
+  font-size: 2vw;
+  font-family: "PT sans", sans-serif;
+  color: var(--secondary-text-color);
+  opacity: 0.54;
+  line-height: 0;
+}
+
+.shop-now_button { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48.5px;
+  width: 126px;
+  background: #b2e7e9;
+  border-radius: 25px;
+  color: var(--underline-color);
+  font-size: 16.5px;
+  font-weight: 700; 
+  transition: all .2s;
+}
+
+.shop-now_button:hover {
+  background: #ffe6d4;
+  color: #ED6435;
+}
+
+@media (min-width: 768px) {
+
+  .info_finaly-here {
+    font-size: 70px;
+    line-height: 70px;
+    width: 50%;
+  }
+
+  .info_specisl-price {
+    width: 50%;
+  }
+
+  .timer {
+    width: 45%;
+    padding-bottom: (15px - 30px);
+  }
+
+  .timer-item .value {
+    font-size: 3vw;
+  }
+
+  .timer-item .label {
+    font-size: 0.6vw;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .info_finaly-here {
+    font-size: 82px;
+    line-height: 82px;
+  }
 }
