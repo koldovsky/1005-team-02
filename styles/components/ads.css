@@ -40,11 +40,13 @@
     width: 453px;
     height: 329px;
   } */
-  .global__ads{
-    background-color:rgb(255, 238, 222);
+  .global__advertisments{
+    background-color: antiquewhite;
+    margin-top: 40px;
   }
-  .ads{
+  .advertisments{
     display: flex;
+    margin-top: 40px;
     
 }
   .ads__goods_card {
@@ -56,7 +58,7 @@
     display: inline-block;
     width: 600px;
     height: 370px;
-  
+    margin-top: 40px;
   }
   
   
@@ -68,7 +70,7 @@
   display: inline-block;
   box-sizing: border-box;
   margin-right:35px;
-  margin-left: 350px;
+  margin-top: 40px;
   width: 600px;
   height: 370px;
 }
