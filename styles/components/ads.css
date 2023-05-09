@@ -91,12 +91,14 @@
     cursor: pointer;
 }
 
-.pet-food__arrow-left {
-  right: 0;
+.pet-food__arrow-left img{
+  left: 0;
+  margin-top: 10px;
 }
 
-.pet-food__arrow-right {
-  left: 0;
+.pet-food__arrow-right img{
+  right: 0;
+  margin-top: 10px;
 }
 
 
