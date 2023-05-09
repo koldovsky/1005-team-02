@@ -1,125 +1,138 @@
 .card__title{
-    font-weight: bold ;
-    font-family: 'Baloo 2', cursive;
-    color: #3C3731;
-    font-size: 48px;
-    line-height: 48px;
-    text-align: center;
-    align-items: center;
+  font-weight: bold ;
+  font-family: 'Baloo 2', cursive;
+  color: #3C3731;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  align-items: center;
 }
 .card .card__fishlink-button{
-        font-weight: bold;
-        font-family: 'Baloo 2', cursive;
-        color: #3C3731;
-        font-size: 20px;
-        line-height: 20px;
-    
+      font-weight: bold;
+      font-family: 'Baloo 2', cursive;
+      color: #3C3731;
+      font-size: 20px;
+      line-height: 20px;
+  
 }
 .ads .card__goods-offer{
-    font-weight: bold;
-    font-family: 'Baloo 2', cursive;
-    color: #3C3731;
-    font-size: 48px;
-    line-height: 48px;
+  font-weight: bold;
+  font-family: 'Baloo 2', cursive;
+  color: #3C3731;
+  font-size: 48px;
+  line-height: 48px;
 }
 
-  .global__advertisments{
-    background-color: antiquewhite;
-    margin-top: 40px;
-  }
-  .advertisments{
-    display: flex;
-    margin-top: 40px;
-    
+.global__advertisments{
+background: var(--secondary-bgc-color);
+margin-top: 40px;
+padding-bottom: 40px;
+
+}
+.advertisments{
+display: flex;
+margin-top: 40px;
+  
 }
 .percentage_text{
-  color:coral;
+color:coral;
 }
-  .ads__goods_card {
-    background-image: url(../../img/goods_blue_bg.jpg);
-    background-size: 600px 370px;
-    background-position: left center; /* align the background image to the right and center horizontally */
-    position:relative;
-    box-sizing: border-box;
-    display: inline-block;
-    width: 600px;
-    height: 370px;
-    margin-top: 40px;
-  }
-  
-  
-.ads__fishes{
-  background-image: url(../../img/fishes.jpg);
-  background-size: 600px 370px; 
-  background-position: right center; 
-  position: relative;
-  display: inline-block;
+.ads__goods_card {
+  background-image: url(../../img/goods_blue_bg.jpg);
+  background-size: 600px 370px;
+  background-position: left center; /* align the background image to the right and center horizontally */
+  position:relative;
   box-sizing: border-box;
-  margin-right:35px;
-  margin-top: 40px;
+  display: inline-block;
   width: 600px;
   height: 370px;
+  margin-top: 40px;
+}
+
+
+.ads__fishes{
+background-image: url(../../img/fishes.jpg);
+background-size: 600px 370px; 
+background-position: right center; 
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+margin-right:35px;
+margin-top: 40px;
+width: 600px;
+height: 370px;
 }
 
 .pet-food__carousel{
-  position: relative;
+margin-top: 20px;
+position: relative; 
 }
- 
+
 .pet-food__carousel_slide {
-  display: flex;
-  justify-content: space-between;
-  height: 110px;
-  width: 300px;
-  margin-left: 15px;
-  margin-right: 15px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+height: 110px;
 }
 
-.pet-food__carousel_slide img {
-  width: 160px;
-  height: 90px;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-top: 45px;
-  margin-bottom: 60px;
+.pet-food__carousel_slide_img {
+position: relative;
+background-color: antiquewhite;
+width: 180px;
+height: 100px;
+margin-left: 5px;
+margin-right: 5px;
+
+}
+.pet-food__carousel_slide_img img{
+position: absolute;
+height: 70px;
+width: 100%;
+top: 15px;
+object-fit: contain;
 }
 
-.pet-food__arrow-left,
-.pet-food__arrow-right {
-  position: absolute;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+.pet-food__arrow-left, .pet-food__arrow-right {
+position: absolute;
+border: none;
+background-color: transparent;
+cursor: pointer;
 }
 
 .pet-food__arrow-left{
-  left: 0; 
+top: 50%;
+transform: translateY(-50%);
+left: -25px; 
 }
 
 .pet-food__arrow-right{
-  right: 0;
+top: 50%;
+transform: translateY(-50%);
+right: -25px;
+}
+
+.hide{
+display: none;
 }
 
 
-
-
 /* .pet-food_carousel_slide {
-  display: flex;
-  justify-content: space-between;
-  height: 110px;
-  width: 215;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-left: 35px;
-  margin-right: 35px;
+display: flex;
+justify-content: space-between;
+height: 110px;
+width: 215;
+margin-left: 2px;
+margin-right: 2px;
+margin-left: 35px;
+margin-right: 35px;
 }
 
 
 .pet-food_carousel_slide img {
-  width: 215px;
-  height: 110px;
-  margin-left: 2px;
-  margin-right:2px;
-  margin-top: 45px;
-  margin-bottom: 60px;
+width: 215px;
+height: 110px;
+margin-left: 2px;
+margin-right:2px;
+margin-top: 45px;
+margin-bottom: 60px;
 } */
-
