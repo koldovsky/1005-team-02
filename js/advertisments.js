@@ -1,15 +1,19 @@
 let slideIndex = 0;
 
-function showSlide(startIndex) {
+function showSlide() {
   const slides = document.querySelectorAll(".pet-food_carousel_slide");
+  const startIndex = slideIndex * 6;
+  const endIndex = startIndex + 6;
+  
   for (let i = 0; i < slides.length; i++) {
-    if (i >= startIndex && i < startIndex + 6) {
+    if (i >= startIndex && i < endIndex) {
       slides[i].style.display = "block";
     } else {
       slides[i].style.display = "none";
     }
   }
 }
+
 
 
 function changeSlide(n) {

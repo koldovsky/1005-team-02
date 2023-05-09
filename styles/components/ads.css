@@ -75,8 +75,8 @@
 }
 
 .pet-food__carousel_slide img {
-  width: 215px;
-  height: 110px;
+  width: 160px;
+  height: 90px;
   margin-left: 2px;
   margin-right: 2px;
   margin-top: 45px;
@@ -85,18 +85,23 @@
 
 .pet-food__arrow-left,
 .pet-food__arrow-right {
-    position: absolute;
+    
     border: none;
     background-color: transparent;
     cursor: pointer;
 }
 
-.pet-food__arrow-left {
-  right: 0;
+.pet-food__arrow-left img{
+  position: absolute;
+  left: 0;
+
+  margin-top: 10px;
 }
 
-.pet-food__arrow-right {
-  left: 0;
+.pet-food__arrow-right img{
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
 }
 
 
