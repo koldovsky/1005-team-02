@@ -7,4 +7,5 @@ document.addEventListener("partialsLoaded", () => {
   import("./trending-products.js");
   import("./timer.js");
   import("./products-for-pets-carousel.js");
+  import("./advertisments.js");
 });
