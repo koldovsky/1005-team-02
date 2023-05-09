@@ -102,8 +102,7 @@
   .products-for-pets__carousel__inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    
-  }
+}
 .carousel__slide {
     flex: 0 0 calc(100% - 60px);
     padding: 20px;
@@ -130,16 +129,15 @@
     width: 35px;
     border: none;
     padding-right: 10px;
-    padding-left: 15px;
-    font-size: 10px;
+    padding-left: 10px;
     cursor: pointer;
   }
 .carousel__button--prev {
-    left: -15px;
+    left: 1px;
   }
   
 .carousel__button--next {
-    right: -5px;
+    right: 1px;
   }
 @media screen and (max-width: 1165px) {
     .products-for-pets__carousel {
