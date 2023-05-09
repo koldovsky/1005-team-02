@@ -81,17 +81,12 @@
 
 .pet-food__arrow-left,
 .pet-food__arrow-right {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  margin: 0 10px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
-.pet-food__arrow-left img,
-.pet-food__arrow-right img {
-  width: 100%;
-  height: 100%;
-}
 
 /* .pet-food_carousel_slide {
   display: flex;
