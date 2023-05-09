@@ -12,7 +12,6 @@
 .banners__discount {
     background: url('../../img/bg_cats_dog_stuff.jpg') 81.41% 58.49% / cover no-repeat;
     text-align: center;
-    
 }
 .banners__discount p{
     margin-top: 50px;
@@ -20,22 +19,6 @@
 .banners__discount a{
     margin-left: auto;
     margin-right: auto;
-}
-.card{
-    position: relative;  
-    margin: 10px 15px;
-}
-
-.card img{
-    display: inline-block;
-    height:auto;
-    justify-content: center;
-    
-}
-.colortext{
-    color: var(--accent-text-color);
-    font-weight: 700;
-
 }
 .banners h2{
     color: var(--secondary-text-color);
@@ -54,13 +37,21 @@
     color: var(--accent-text-color);
     font-weight: 700;
 }
-.carousel__slide{
-    border: solid;
-    border-color: var(--top-line-bg-color);
-    margin: 10px;
-    width: fit-content;
-    max-width: 260px;
-    height: 300px;
+.card{
+    position: relative;  
+    margin: 10px 15px;
+}
+
+.card img{
+    display: inline-block;
+    height:auto;
+    justify-content: center;
+    
+}
+.colortext{
+    color: var(--accent-text-color);
+    font-weight: 700;
+
 }
 .carousel__slide h3{
     font-style: Baloo 2;
@@ -101,39 +92,77 @@
     margin-right: auto;
     margin-top: 20px;
 }
-
 .products-for-pets__carousel {
     position: relative;
-    width: 90%;
     overflow: hidden;
-}
-
-.products-for-pets__carousel__inner {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .products-for-pets__carousel__inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
-}
-
-.products-for-pets__carousel .carousel__slide {
-    flex: 0 0 100%;
+    
+  }
+.carousel__slide {
+    flex: 0 0 calc(100% - 60px);
     padding: 20px;
-    box-sizing: border-box;
+    margin: 10px;
+    max-width: 260px;
+    height: 300px;
+    border: solid;
+    border-color: var(--top-line-bg-color);
 }
-
-.products-for-pets__carousel .carousel__button {
+  
+.carousel__button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.1);
     border: none;
-    font-size: 20px;
-    padding: 10px 20px;
+    font-size: 3px;
     cursor: pointer;
-}
-
-.products-for-pets__carousel .carousel__button--prev {
-    left: 10px;
-}
-
-.products-for-pets__carousel .carousel__button--next {
-    right: 10px;
-}
+  }
+.carousel__button img{
+    top: 50%;
+    transform: translateY(-50%);
+    height: 35px;
+    width: 35px;
+    border: none;
+    padding-right: 10px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+.carousel__button--prev {
+    left: 1px;
+  }
+  
+.carousel__button--next {
+    right: 1px;
+  }
+@media screen and (max-width: 1165px) {
+    .products-for-pets__carousel {
+    width: 850px;
+    }
+  }
+@media screen and (max-width: 880px) {
+    .products-for-pets__carousel {
+    width: 560px;
+    }
+  }
+@media screen and (max-width: 590px) {
+    .products-for-pets__carousel {
+        width: 290px;
+    }
+    .carousel__button img{
+        height: 0;
+        width: 0;
+    }
+    .banners {
+        grid-template-columns: 1fr;
+    }
+    .banners__discount {
+        min-height: 300px;
+    }
+  }
