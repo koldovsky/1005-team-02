@@ -92,13 +92,10 @@
 }
 .pet-food__arrow-left img {
   position: absolute;
-  left: 0;
-  
 }
 
 .pet-food__arrow-right img {
   position: absolute;
-  right: 0;
 }
 
 
