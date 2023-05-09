@@ -1,5 +1,5 @@
 .recommendations__part-one {
-	padding: 100px 0 60px 0;
+	padding: 100px 40px 100px 40px;
   
 }
 
@@ -27,6 +27,7 @@
 
 .recommendation__caption-paragraph {
 	font-size: 19px;
+	padding: 10px 0px;
 }
 
  .recommendation-list {
@@ -43,14 +44,6 @@
   
 }
 
-.recommendation__filter-categories {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-	max-width: 50%;
-}
-
 
  .filter__item-caption {
 	font-size: 18px;
@@ -61,14 +54,6 @@
 	color: var(--accent-text-color);
  }
 
-.filter-btn__text{
-    color: var(--underline-color);
-    font-size: 16.5px;
-	display: inline-block;
-    position: relative;
-    max-width: 100%;
-    word-wrap: break-word;
-} 
 
 .list__item{
 	display: inline-block;
@@ -124,5 +109,29 @@
 }
 
 
+.block__main {
+    position: relative;
+    top: 20px; 
+	
+}
+
+.list {
+	white-space: nowrap;
+	overflow-x: auto;
+	/* padding: 0px 20px; */
+	border-bottom: 1px solid
+  }
   
+  @media screen and (min-width: 992px) {
+	.block__item {
+	  width: calc(25% - 40px);
+	}
+  }
+
+  .block__row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 -20px;
+  }
   
