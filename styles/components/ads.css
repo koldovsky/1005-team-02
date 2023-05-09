@@ -86,6 +86,14 @@
     background-color: transparent;
     cursor: pointer;
 }
+.pet-food__arrow-left {
+  left: 0;
+}
+
+.pet-food__arrow-right {
+  right: 0;
+}
+
 
 
 /* .pet-food_carousel_slide {
