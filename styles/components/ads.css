@@ -117,7 +117,8 @@ display: none;
 @media (max-width: 767px){
   .advertisments{
     flex-direction: column;
-      
+    width:342px; 
+    height:322px; 
   }
 }
 
