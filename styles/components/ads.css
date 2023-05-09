@@ -60,6 +60,10 @@
   width: 600px;
   height: 370px;
 }
+
+.pet-food__carousel{
+  position: relative;
+}
  
 .pet-food__carousel_slide {
   display: flex;
@@ -87,10 +91,13 @@
     cursor: pointer;
 }
 .pet-food__arrow-left {
+  position: absolute;
   left: 0;
+  
 }
 
 .pet-food__arrow-right {
+  position: absolute;
   right: 0;
 }
 
