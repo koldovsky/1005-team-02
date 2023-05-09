@@ -17,8 +17,7 @@
     margin-top: 50px;
 }
 .banners__discount a{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px auto 0 auto;
 }
 .banners h2{
     color: var(--secondary-text-color);
@@ -127,19 +126,20 @@
 .carousel__button img{
     top: 50%;
     transform: translateY(-50%);
-    height: 35px;
+    height: 40px;
     width: 35px;
     border: none;
     padding-right: 10px;
+    padding-left: 15px;
     font-size: 10px;
     cursor: pointer;
   }
 .carousel__button--prev {
-    left: 1px;
+    left: -15px;
   }
   
 .carousel__button--next {
-    right: 1px;
+    right: -5px;
   }
 @media screen and (max-width: 1165px) {
     .products-for-pets__carousel {
