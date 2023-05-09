@@ -4,8 +4,8 @@
   color: #3C3731;
   font-size: 48px;
   line-height: 48px;
-  text-align: center;
-  align-items: center;
+  margin-left: 45px;
+  margin-top: 50px;
 }
 .card .card__fishlink-button{
       font-weight: bold;
@@ -15,9 +15,22 @@
       line-height: 20px;
   
 }
+
+.petstxt{
+  font-weight: bold;
+      font-family: 'Baloo 2', cursive;
+      color: #3C3731;
+      font-size: 20px;
+      line-height: 20px;
+}
+
+.pricecolor{
+  color: coral;
+  margin-bottom: 25px;
+}
 .ads .card__goods-offer{
   font-weight: bold;
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Courier New', cursive;
   color: #3C3731;
   font-size: 48px;
   line-height: 48px;
