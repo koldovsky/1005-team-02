@@ -85,22 +85,18 @@
 
 .pet-food__arrow-left,
 .pet-food__arrow-right {
-    
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-.pet-food__arrow-left img{
-  
+.pet-food__arrow-left{
   left: 0; 
-  margin-top: 10px;
 }
 
-.pet-food__arrow-right img{
-  
+.pet-food__arrow-right{
   right: 0;
-  margin-top: 10px;
 }
 
 
