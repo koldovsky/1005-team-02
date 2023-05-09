@@ -114,7 +114,12 @@ right: -25px;
 .hide{
 display: none;
 }
-
+@media (max-width: 767px){
+  .advertisments{
+    flex-direction: column;
+      
+  }
+}
 
 /* .pet-food_carousel_slide {
 display: flex;
