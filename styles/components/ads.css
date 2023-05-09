@@ -64,9 +64,9 @@
   display: flex;
   justify-content: space-between;
   height: 110px;
-  width: 100%;
-  margin-left: 35px;
-  margin-right: 35px;
+  width: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .pet-food__carousel_slide img {
@@ -76,6 +76,20 @@
   margin-right: 2px;
   margin-top: 45px;
   margin-bottom: 60px;
+}
+
+.pet-food__arrow-left,
+.pet-food__arrow-right {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.pet-food__arrow-left img,
+.pet-food__arrow-right img {
+  width: 100%;
+  height: 100%;
 }
 
 /* .pet-food_carousel_slide {
