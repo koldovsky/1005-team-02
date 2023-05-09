@@ -54,8 +54,27 @@
   width: 600px;
   height: 370px;
 }
-  
-.pet-food_carousel_slide {
+ 
+.pet-food__carousel_slide {
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+  width: 100%;
+  margin-left: 35px;
+  margin-right: 35px;
+  overflow-x: scroll;
+}
+
+.pet-food__carousel_slide img {
+  width: 215px;
+  height: 110px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+
+/* .pet-food_carousel_slide {
   display: flex;
   justify-content: space-between;
   height: 110px;
@@ -66,13 +85,7 @@
   margin-right: 35px;
 }
 
-/* .carousel_goods_slides{
-  max-width: 100%;
-  flex: 1 0 100%;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 24px;
-} */
+
 .pet-food_carousel_slide img {
   width: 215px;
   height: 110px;
@@ -80,5 +93,5 @@
   margin-right:2px;
   margin-top: 45px;
   margin-bottom: 60px;
-}
+} */
 
